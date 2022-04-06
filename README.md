@@ -3,7 +3,7 @@ SAF profile and examples used for TdSE2021 Presentation for the SysML Tool Rhaps
 
 **Operational Domain available**
 
-**Functional Domain NOT yet**
+**Functional Domain NOT yet available**
 
 The repository features the SAF Profile and the SAF FFDS Example presented at TdSE 2021. Both, Profile and Example are intended to be used with IBM Rhapsody (v9.0.1 iFix2). Please see the model file itself for licensing terms.
 
