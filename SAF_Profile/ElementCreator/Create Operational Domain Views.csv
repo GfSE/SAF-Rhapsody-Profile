@@ -1,0 +1,37 @@
+X,Y,Text to Display,Element To Create,BGR,BGG,BGB,FGR,FGB,FGG,Stereotype
+0,0,Operational Domain,null,41,64,121,255,255,255,null
+1,0,01-Story &Context,null,41,64,121,255,255,255,null
+2,0,02-Structure …,null,41,64,121,255,255,255,null
+3,0,03-Process &Behaviour,null,41,64,121,255,255,255,null
+4,0,04-Interaction &Collaboration,null,41,64,121,255,255,255,null
+5,0,05-Interface ...,null,41,64,121,255,255,255,null
+6,0,06-Requirement …,null,41,64,121,255,255,255,null
+7,0,07-Safety &Security,null,41,64,121,255,255,255,null
+8,0,08-Mapping &CrossReference,null,41,64,121,255,255,255,null
+0,1,,null,51,79,153,255,255,255,null
+0,2,,null,62,96,185,255,255,255,null
+0,3,,null,89,120,200,255,255,255,null
+1,1,SOV01a Operational Story,SAF_SOV01a_OperationalStoryDiagram,51,79,153,255,255,255,null
+1,2,SOV01b Operational Context,SAF_SOV01b_OperationalContextDefinitionDiagram,62,96,185,255,255,255,null
+1,3,SOV01c Operational Context Exchange,SAF_SOV01c_OperationalContextExchangeDiagram,89,120,200,255,255,255,null
+2,1,SOV02a Operational Domain Kind,SAF_SOV02a_OperationalDomainKindDiagram,51,79,153,255,255,255,null
+2,2,SOV02b Operational Performer Definition,SAF_SOV02b_OperationalPerformerDiagram,62,96,185,255,255,255,null
+2,3,SOV02c Operational Capability,SAF_SOV02c_OperationalCapabilityDiagram,89,120,200,255,255,255,null
+3,1,SOV03a Operational Process,SAF_OperationalProcess,51,79,153,255,255,255,null
+3,2,-,null,62,96,185,255,255,255,null
+3,3,-,null,89,120,200,255,255,255,null
+4,1,SOV04a Operational Interaction,SAF_SOV04a_OperationalInteractionDiagram,51,79,153,255,255,255,null
+4,2,-,null,62,96,185,255,255,255,null
+4,3,-,null,89,120,200,255,255,255,null
+5,1,-,null,51,79,153,255,255,255,null
+5,2,-,null,62,96,185,255,255,255,null
+5,3,-,null,89,120,200,255,255,255,null
+6,1,SOV06a Stakeholder Requirement,SAF_SOV06a_StakeholderRequirementDiagram,51,79,153,255,255,255,null
+6,2,-,null,62,96,185,255,255,255,null
+6,3,-,null,89,120,200,255,255,255,null
+7,1,-,null,51,79,153,255,255,255,null
+7,2,-,null,62,96,185,255,255,255,null
+7,3,-,null,89,120,200,255,255,255,null
+8,1,SOV08a Operational Capability Traceability,SAF_SOV08a_OperationalCapabilityTraceabilityDiagram,51,79,153,255,255,255,null
+8,2,SOV08b Operational Process Traceability,SAF_SOV08b_OperationalProcessTraceabilityDiagram,62,96,185,255,255,255,null
+8,3,-,null,89,120,200,255,255,255,null

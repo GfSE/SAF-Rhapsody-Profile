@@ -1,0 +1,2148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202110051520</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 1f8eaf05-d04d-4722-9950-dc0a32ca5b03</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">StRS</_name>
+			<_modifiedTimeWeak type="a">3.24.2022::16:42:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2022::16:45:37</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">3.24.2022::16:42:52</weakCGTime>
+			<strongCGTime type="a">10.29.2021::16:3:17</strongCGTime>
+			<_defaultComposite type="s">GUID b87cd89f-cc35-4b74-acb5-cbfe559decc1</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 902c92de-21ad-4fa9-b79d-9a706f398da3</value>
+				<value>GUID 32580fe1-9b1c-4cb4-9d90-075a226ea3f2</value>
+				<value>GUID 7b6213ac-7442-4e9d-9a67-cf9d1edd1609</value>
+				<value>GUID 17663de6-11c9-4039-8c3f-ec7fafb580d0</value>
+				<value>GUID 10610ea6-948e-4a47-85d7-8573a64ccc02</value>
+				<value>GUID 9890ff8d-7c14-41d4-87b6-9c04fe858474</value>
+				<value>GUID 40c37a78-2995-447b-a54b-9efd196333e9</value>
+				<value>GUID 5685fc95-ff4d-457d-82b7-b02425af4920</value>
+				<value>GUID a03e294d-cee7-438a-a49b-e691286f557b</value>
+				<value>GUID 503705ad-0989-422e-863a-7ee70e249392</value>
+				<value>GUID 0a9d47cd-9275-46c3-8f7a-bfee474466ba</value>
+				<value>GUID b23868e0-dada-4779-933f-3778f92d6338</value>
+				<value>GUID 649e4e54-f9d1-4115-bec6-75a9f330cc42</value>
+				<value>GUID 6eb54c7e-0e01-4d7b-810c-88a9a3ee415f</value>
+				<value>GUID a44b1f64-0a1d-45b3-831f-fa48dbb7087b</value>
+				<value>GUID fde97f9b-5e70-4c28-9041-1b9cd2dce8d4</value>
+				<value>GUID b87cd89f-cc35-4b74-acb5-cbfe559decc1</value>
+				<value>GUID 926b3180-159d-4471-bc3d-76651a7d7a03</value>
+				<value>GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</value>
+				<value>GUID 789e2b06-374e-4a0b-b39f-e73ce51666a9</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 902c92de-21ad-4fa9-b79d-9a706f398da3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AreaOfInterestMonitoring</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">In the event of a forest fire the system shall have the ability to monitor a specific area of interest.</_body>
+			<reqID type="a">CPBLTY-12.1</reqID>
+			<AggregatesList type="e">
+				<value>GUID 907b03d7-bb5d-4d8b-a351-6d4e41ce0566</value>
+				<value>GUID 82af2ee3-4f39-4895-b853-556e7e8f35fd</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 907b03d7-bb5d-4d8b-a351-6d4e41ce0566</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID f2e3cd0e-0600-4cf4-b187-e2804c24aca6</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID f2e3cd0e-0600-4cf4-b187-e2804c24aca6</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 82af2ee3-4f39-4895-b853-556e7e8f35fd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID a6be3e22-216a-4a5e-a2d7-371521b891e1</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a6be3e22-216a-4a5e-a2d7-371521b891e1</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 32580fe1-9b1c-4cb4-9d90-075a226ea3f2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Availability_24_7</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall be available 24/7. Rational: A forest fire could occur anytime.</_body>
+			<reqID type="a">CPBLTY-16</reqID>
+			<AggregatesList type="e">
+				<value>GUID 55014162-674a-4131-a587-794c6e75368a</value>
+				<value>GUID 5e78cd90-633a-4a73-a63e-c79d81364260</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 55014162-674a-4131-a587-794c6e75368a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID b9aecc6f-db0a-4e6d-9ac1-7880560dfd8a</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID b9aecc6f-db0a-4e6d-9ac1-7880560dfd8a</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 5e78cd90-633a-4a73-a63e-c79d81364260</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 23b5907a-c2c5-4214-b858-fb1eb5a728d5</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 23b5907a-c2c5-4214-b858-fb1eb5a728d5</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 7b6213ac-7442-4e9d-9a67-cf9d1edd1609</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BurntForestAreaDamageAssesmentCapability</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to assess damage in burnt areas in order to base post-fire assessment and management decisions on this information. Rational: Plant mortality, regeneration and reproduction are closely tied to how hot and how long a wildfire burns and will determine the make-up of post-fire plant communities. Burn severity also effects wildlife habitat, changes in the soil, erosion potential and many components of aquatic environments.</_body>
+			<reqID type="a">CPBLTY-20</reqID>
+			<AggregatesList type="e">
+				<value>GUID 3ab4823e-5508-4933-9650-f0683ac2ae75</value>
+				<value>GUID a3d85f08-711d-402f-af65-3dda6d835526</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 3ab4823e-5508-4933-9650-f0683ac2ae75</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID fcae238d-36f5-4f80-902d-90e85c7f403e</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID fcae238d-36f5-4f80-902d-90e85c7f403e</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID a3d85f08-711d-402f-af65-3dda6d835526</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 9932f1c1-c41a-4a1d-9b65-20e84b41f610</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 9932f1c1-c41a-4a1d-9b65-20e84b41f610</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 17663de6-11c9-4039-8c3f-ec7fafb580d0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DataCollection</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to provide collected data for further analysis.</_body>
+			<reqID type="a">CPBLTY-14</reqID>
+			<AggregatesList type="e">
+				<value>GUID 76f8f1c1-1f99-4841-83e5-599d9386538b</value>
+				<value>GUID e6ccf06f-1a11-4fdf-ad5c-9d833c2d114d</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 76f8f1c1-1f99-4841-83e5-599d9386538b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID d8685da3-2602-4b5d-b1af-d9a3b637fe4f</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID d8685da3-2602-4b5d-b1af-d9a3b637fe4f</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID e6ccf06f-1a11-4fdf-ad5c-9d833c2d114d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 867e8aa3-3087-4c01-bfbb-5e98cdae1641</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 867e8aa3-3087-4c01-bfbb-5e98cdae1641</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">Medium</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 10610ea6-948e-4a47-85d7-8573a64ccc02</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DataStorage</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to store the collected data.</_body>
+			<reqID type="a">CPBLTY-15</reqID>
+			<AggregatesList type="e">
+				<value>GUID b6d9fefc-38bf-4fff-aa58-ecda855e8777</value>
+				<value>GUID 76120d91-0b27-44b9-a6eb-5a8bd4d34a64</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID b6d9fefc-38bf-4fff-aa58-ecda855e8777</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID f9c606f5-5b2c-4abc-9800-22312853fe98</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID f9c606f5-5b2c-4abc-9800-22312853fe98</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 76120d91-0b27-44b9-a6eb-5a8bd4d34a64</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 8b3d8e95-96b1-4296-ad52-ffa7ffbe00e4</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 8b3d8e95-96b1-4296-ad52-ffa7ffbe00e4</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">Low</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 9890ff8d-7c14-41d4-87b6-9c04fe858474</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FalseAlarm_falseNegative)</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The probability of false alarms must be lower than 5 %25. Rational: A forest fire alarm triggers a lot of expensive actions.</_body>
+			<reqID type="a">STK-REQ-QLT-22</reqID>
+			<AggregatesList type="e">
+				<value>GUID 4d5e54de-9849-4d3f-a417-40cb7f8479bb</value>
+				<value>GUID 62eff5ac-ee79-4078-a98d-bf9f4df64411</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 4d5e54de-9849-4d3f-a417-40cb7f8479bb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 3ebdbaed-e73a-4450-903c-d2a4926816f8</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 3ebdbaed-e73a-4450-903c-d2a4926816f8</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 62eff5ac-ee79-4078-a98d-bf9f4df64411</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 0c91bf5c-0e06-453d-8937-c3c0a92e79cb</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 0c91bf5c-0e06-453d-8937-c3c0a92e79cb</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 40c37a78-2995-447b-a54b-9efd196333e9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FireAlertNotificationTime</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall be able to report a verified fire within 5 seconds. Rational: Every second counts when fighting a forest fire.</_body>
+			<reqID type="a">STK-REQ-QLT-25</reqID>
+			<AggregatesList type="e">
+				<value>GUID 8b4c03b0-ae66-4557-94f0-204bc9ff7399</value>
+				<value>GUID 6b240df4-89f4-43ed-b442-7ff5a80037b9</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 8b4c03b0-ae66-4557-94f0-204bc9ff7399</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID e0e51a78-2f0e-461a-b5e9-18c2fd4decfd</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID e0e51a78-2f0e-461a-b5e9-18c2fd4decfd</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 6b240df4-89f4-43ed-b442-7ff5a80037b9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 7e0ab700-fde7-4eb7-9878-618f0c014d84</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 7e0ab700-fde7-4eb7-9878-618f0c014d84</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 5685fc95-ff4d-457d-82b7-b02425af4920</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FireDetection</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to detect fire areas.</_body>
+			<reqID type="a">CPBLTY-11</reqID>
+			<AggregatesList type="e">
+				<value>GUID 839ccdde-0a46-4dd9-87a3-da1497abdbc0</value>
+				<value>GUID e3fd288d-8c1e-4e9b-a605-d6b356f214ea</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 839ccdde-0a46-4dd9-87a3-da1497abdbc0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID b3abe547-ca96-47e8-b4be-cff13c5014df</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID b3abe547-ca96-47e8-b4be-cff13c5014df</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID e3fd288d-8c1e-4e9b-a605-d6b356f214ea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID fa9572e8-5c68-48b1-9bb1-aedc646d904f</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID fa9572e8-5c68-48b1-9bb1-aedc646d904f</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID a03e294d-cee7-438a-a49b-e691286f557b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FireMonitoring</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to monitor fire areas.</_body>
+			<reqID type="a">CPBLTY-12</reqID>
+			<AggregatesList type="e">
+				<value>GUID dfd42d27-9b2f-4ed5-917c-cfc1438c4e5e</value>
+				<value>GUID 4fa19183-ebf3-4a4d-b406-ffc35e284c63</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID dfd42d27-9b2f-4ed5-917c-cfc1438c4e5e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID bac03760-3756-475c-94ad-a45524de32e5</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID bac03760-3756-475c-94ad-a45524de32e5</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 4fa19183-ebf3-4a4d-b406-ffc35e284c63</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 0aae6f3e-f924-413d-b7ef-f423b011f73e</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 0aae6f3e-f924-413d-b7ef-f423b011f73e</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:22</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 503705ad-0989-422e-863a-7ee70e249392</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ForestFireDetectingAndMonitoringCapability</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to detect and monitor forest fires.</_body>
+			<reqID type="a">CPBLTY-18</reqID>
+			<AggregatesList type="e">
+				<value>GUID 4e0b057e-2542-46a5-8e62-86b1c01234d8</value>
+				<value>GUID cc5c686a-9863-42d7-bdad-f20ee5f9a7b3</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 4e0b057e-2542-46a5-8e62-86b1c01234d8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID e6830648-12b7-4f0e-991c-c52a1b424e28</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID e6830648-12b7-4f0e-991c-c52a1b424e28</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID cc5c686a-9863-42d7-bdad-f20ee5f9a7b3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 06c2b740-aeab-4c87-83af-2f3e83e3dfb6</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 06c2b740-aeab-4c87-83af-2f3e83e3dfb6</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 0a9d47cd-9275-46c3-8f7a-bfee474466ba</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ForestFirePatternResearchCapability</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to research forest fire pattern(s) in order to trace the origin and development of a fire.</_body>
+			<reqID type="a">CPBLTY-19</reqID>
+			<AggregatesList type="e">
+				<value>GUID e2fcd190-9aef-434b-b2af-1d29d1328aa8</value>
+				<value>GUID a594264d-730d-4539-835c-d9ff699d1e0c</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID e2fcd190-9aef-434b-b2af-1d29d1328aa8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 383a0cf4-f0d7-4b90-84c3-57731aca384f</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 383a0cf4-f0d7-4b90-84c3-57731aca384f</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID a594264d-730d-4539-835c-d9ff699d1e0c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 986bd98d-cf17-420d-ac7b-21564141c134</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 986bd98d-cf17-420d-ac7b-21564141c134</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID b23868e0-dada-4779-933f-3778f92d6338</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ForestSize</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall be scalable for forest up to the size of 500 million hectare.</_body>
+			<reqID type="a">STK-REQ-QLT-21</reqID>
+			<AggregatesList type="e">
+				<value>GUID 37ebee8e-19b6-4930-99c2-49e6b14a8bb7</value>
+				<value>GUID e4b73f68-18ab-4abf-9b23-ae15ad2c53d8</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 37ebee8e-19b6-4930-99c2-49e6b14a8bb7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID a67c58f7-50b6-46bf-bd82-848d6921cc67</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a67c58f7-50b6-46bf-bd82-848d6921cc67</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID e4b73f68-18ab-4abf-9b23-ae15ad2c53d8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 01f714a7-3c6a-4d16-b6ed-f9b1c33ecfc6</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 01f714a7-3c6a-4d16-b6ed-f9b1c33ecfc6</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 649e4e54-f9d1-4115-bec6-75a9f330cc42</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Geolocation</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall be able to locate fires with an accuracy of 100 meter.</_body>
+			<reqID type="a">STK-REQ-QLT-24</reqID>
+			<AggregatesList type="e">
+				<value>GUID b3f1be23-2dfc-4607-a273-90a1c84f5995</value>
+				<value>GUID f80c83e0-43cf-4b14-a048-a852e8677c6b</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID b3f1be23-2dfc-4607-a273-90a1c84f5995</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 90212828-329c-4e4c-bcfb-0031213e4b4f</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 90212828-329c-4e4c-bcfb-0031213e4b4f</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID f80c83e0-43cf-4b14-a048-a852e8677c6b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 660406c1-e9f0-4886-88e1-2cd2e636a318</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 660406c1-e9f0-4886-88e1-2cd2e636a318</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID 6eb54c7e-0e01-4d7b-810c-88a9a3ee415f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PropagationEstimation</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall have the ability to predict the fire spread.</_body>
+			<reqID type="a">CPBLTY-17</reqID>
+			<AggregatesList type="e">
+				<value>GUID 98a7a613-0b75-49c6-ab77-b79939c5a57a</value>
+				<value>GUID 6db6db62-3e1c-4e5d-b94d-8781c5d90142</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID 98a7a613-0b75-49c6-ab77-b79939c5a57a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 998e59d1-7d8b-44d5-ad49-b827169e6311</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 998e59d1-7d8b-44d5-ad49-b827169e6311</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 6db6db62-3e1c-4e5d-b94d-8781c5d90142</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 1f5d1914-e670-4b20-93b8-634277eaad9d</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 1f5d1914-e670-4b20-93b8-634277eaad9d</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IRequirement type="e">
+			<_id type="a">GUID a44b1f64-0a1d-45b3-831f-fa48dbb7087b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SizeOfFire</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+							<_hname type="a">SAF_StakeholderRequirement</_hname>
+							<_hid type="a">GUID 812296bc-9755-4ae7-84eb-b919036e72bd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::16:2:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:2:45</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">The system shall be able to detect fire areas of at least 50 square meter initiating reactive actions to cope the fire.</_body>
+			<reqID type="a">STK-REQ-QLT-23</reqID>
+			<AggregatesList type="e">
+				<value>GUID a1bce66e-5fe3-45d6-ad4a-53e6e37761a3</value>
+				<value>GUID f03b57bd-cb6c-4793-9c10-075fdacfe3cf</value>
+			</AggregatesList>
+		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID a1bce66e-5fe3-45d6-ad4a-53e6e37761a3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Source</_hname>
+					<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 9e7d6868-c5fb-4e43-a579-e05ef5eb39ca</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 9e7d6868-c5fb-4e43-a579-e05ef5eb39ca</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">StkRS</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID f03b57bd-cb6c-4793-9c10-075fdacfe3cf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+					<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+					<_hname type="a">Risk</_hname>
+					<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 38a9771a-c215-4022-bd9f-610707f3473a</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 38a9771a-c215-4022-bd9f-610707f3473a</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:0:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:0:23</_modifiedTime>
+			<_value type="a">High</_value>
+		</ILiteralSpecification>
+		<IMHyperLink type="e">
+			<_id type="a">GUID fde97f9b-5e70-4c28-9041-1b9cd2dce8d4</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::16:3:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::16:3:17</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">..\Sources\StakeholderRequirementDefinitionTable.csv</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">..\Sources\StakeholderRequirementDefinitionTable.csv</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IClass type="e">
+			<_id type="a">GUID b87cd89f-cc35-4b74-acb5-cbfe559decc1</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ITableLayout type="e">
+			<_id type="a">GUID 926b3180-159d-4471-bc3d-76651a7d7a03</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">TableHeaderMenuAlignment</_Name>
+													<_Value type="a">Right</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Left,Right</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableLayout</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">CollapseFirstColumn</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ContextTableColumnNameFormat</_Name>
+													<_Value type="a">$(Property) in $(Context)</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">EnableCriteriaCheck</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">QueryContextPattern</_Name>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableView</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ChangeSelectionOnEnterTo</_Name>
+													<_Value type="a">down</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">left, right, up, down</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">StRS_ImportFromCSV</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">CSVImporter</_hname>
+							<_hid type="a">GUID 00a7dd46-a903-43ea-8ba3-6e9b23f98be1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.24.2022::16:42:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2022::16:42:52</_modifiedTime>
+			<TableElementTypes type="c">
+				<IRPYRawContainer type="e">
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 926b3180-159d-4471-bc3d-76651a7d7a03</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">SAF_StakeholderRequirement</TableDataDefinitionName>
+						<_DataType type="a">1601795177</_DataType>
+					</TableDataDefinition>
+					
+				</IRPYRawContainer>
+			</TableElementTypes>
+			<DataColumns type="c">
+				<IRPYRawContainer type="e">
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 926b3180-159d-4471-bc3d-76651a7d7a03</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Requirement.ID</TableDataDefinitionName>
+						<_columnName type="a">ID</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 926b3180-159d-4471-bc3d-76651a7d7a03</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">General.Name</TableDataDefinitionName>
+						<_columnName type="a">Name</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 926b3180-159d-4471-bc3d-76651a7d7a03</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Requirement.Specification</TableDataDefinitionName>
+						<_columnName type="a">Specification</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 926b3180-159d-4471-bc3d-76651a7d7a03</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITag</_hm2Class>
+								<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+								<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+								<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+								<_hname type="a">Source</_hname>
+								<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Source</TableDataDefinitionName>
+						<_DataType type="a">4</_DataType>
+						<_columnName type="a">Source</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 926b3180-159d-4471-bc3d-76651a7d7a03</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITag</_hm2Class>
+								<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+								<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+								<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+								<_hname type="a">Risk</_hname>
+								<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Risk</TableDataDefinitionName>
+						<_DataType type="a">4</_DataType>
+						<_columnName type="a">Risk</_columnName>
+					</TableDataDefinition>
+					
+				</IRPYRawContainer>
+			</DataColumns>
+			<AggregatesList type="e">
+				<value>GUID bcf23022-9de5-4dc2-899a-8c6eb6ae93f1</value>
+				<value>GUID 1c370c66-f536-40c5-a6bb-bfa1d3011cd3</value>
+				<value>GUID 32f21ef6-07ec-4df4-a386-4f3e292548b4</value>
+			</AggregatesList>
+		</ITableLayout>
+		<ITag type="e">
+			<_id type="a">GUID bcf23022-9de5-4dc2-899a-8c6eb6ae93f1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Ignore_First_Row</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">HideInBrowser</_hname>
+							<_hid type="a">GUID ce41754a-c9a3-49a9-a336-73ac03345c2f</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::15:28:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::15:28:18</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpBoolean</_hname>
+					<_hid type="a">GUID f19b56f2-78ab-44fa-860e-6ead487ecb07</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hclass type="a">CSVImporter</_hclass>
+					<_hname type="a">Ignore_First_Row</_hname>
+					<_hid type="a">GUID 35db43e5-ebc1-4522-834a-c95f69aa781c</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID e171c419-4877-4ff9-80ac-c0afd7caa205</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID e171c419-4877-4ff9-80ac-c0afd7caa205</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::15:28:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::15:28:18</_modifiedTime>
+			<_value type="a">True</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 1c370c66-f536-40c5-a6bb-bfa1d3011cd3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Source_Import_Files</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">HideInBrowser</_hname>
+							<_hid type="a">GUID ce41754a-c9a3-49a9-a336-73ac03345c2f</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::19:59:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::19:59:3</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hclass type="a">CSVImporter</_hclass>
+					<_hname type="a">Source_Import_Files</_hname>
+					<_hid type="a">GUID 08d20c06-dc12-42f5-8319-999b8f4d7925</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 59d7d706-b4ea-4e0d-bcf6-37e9758655aa</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 59d7d706-b4ea-4e0d-bcf6-37e9758655aa</_id>
+			<_modifiedTimeWeak type="a">10.29.2021::19:59:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::19:59:3</_modifiedTime>
+			<_value type="a">..\Sources\StakeholderRequirementDefinitionTable.csv</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 32f21ef6-07ec-4df4-a386-4f3e292548b4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Target_Model_Element</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">HideInBrowser</_hname>
+							<_hid type="a">GUID ce41754a-c9a3-49a9-a336-73ac03345c2f</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.24.2022::16:42:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2022::16:42:52</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 00d4aee3-3574-4d7a-98c4-8a1dedbccb61</value>
+			</AggregatesList>
+		</ITag>
+		<IType type="e">
+			<_id type="a">GUID 00d4aee3-3574-4d7a-98c4-8a1dedbccb61</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">Package</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITableLayout type="e">
+			<_id type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">TableHeaderMenuAlignment</_Name>
+													<_Value type="a">Right</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Left,Right</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableLayout</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">CollapseFirstColumn</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ContextTableColumnNameFormat</_Name>
+													<_Value type="a">$(Property) in $(Context)</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">EnableCriteriaCheck</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">QueryContextPattern</_Name>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableView</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ChangeSelectionOnEnterTo</_Name>
+													<_Value type="a">down</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">left, right, up, down</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">TableL_StRS</_name>
+			<_modifiedTimeWeak type="a">10.29.2021::20:12:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::20:12:54</_modifiedTime>
+			<TableElementTypes type="c">
+				<IRPYRawContainer type="e">
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">SAF_StakeholderRequirement</TableDataDefinitionName>
+						<_DataType type="a">96</_DataType>
+					</TableDataDefinition>
+					
+				</IRPYRawContainer>
+			</TableElementTypes>
+			<DataColumns type="c">
+				<IRPYRawContainer type="e">
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Requirement.ID</TableDataDefinitionName>
+						<_columnName type="a">ID</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">General.Name</TableDataDefinitionName>
+						<_columnName type="a">Name</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Requirement.Specification</TableDataDefinitionName>
+						<_columnName type="a">Specification</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITag</_hm2Class>
+								<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+								<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+								<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+								<_hname type="a">Source</_hname>
+								<_hid type="a">GUID 775b981e-468d-4e48-a88b-5491b2802b9e</_hid>
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Source</TableDataDefinitionName>
+						<_DataType type="a">4</_DataType>
+						<_columnName type="a">Source</_columnName>
+					</TableDataDefinition>
+					
+					<TableDataDefinition type="e">
+						<_myTable type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITableLayout</_hm2Class>
+								<_hid type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_hid>
+							</IHandle>
+						</_myTable>
+						<_modelElement type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">ITag</_hm2Class>
+								<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\Changed_SAF_ElementsPkg.sbsx</_hfilename>
+								<_hsubsystem type="a">SAF_Profile::SAF_ElementsPkg::Changed_SAF_ElementsPkg</_hsubsystem>
+								<_hclass type="a">SAF_StakeholderRequirement</_hclass>
+								<_hname type="a">Risk</_hname>
+								<_hid type="a">GUID 1db92d80-4b56-4c72-8bfe-d9befc7232ac</_hid>
+							</IHandle>
+						</_modelElement>
+						<TableDataDefinitionName type="a">Risk</TableDataDefinitionName>
+						<_DataType type="a">4</_DataType>
+						<_columnName type="a">Risk</_columnName>
+					</TableDataDefinition>
+					
+				</IRPYRawContainer>
+			</DataColumns>
+		</ITableLayout>
+		<ITableInstance type="e">
+			<_id type="a">GUID 789e2b06-374e-4a0b-b39f-e73ce51666a9</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableView</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">UseOwnerScope</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">TableV_StRS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\03_SupplierModel_simplified\SAF_Profile_v329\SAF_Profile_rpy\SAF_DiagramsPkg.sbsx</_hfilename>
+							<_hsubsystem type="a">SAF_Profile::SAF_DiagramsPkg</_hsubsystem>
+							<_hname type="a">SAF_SOV06a_StakeholderRequirementDiagram</_hname>
+							<_hid type="a">GUID c09bb8ef-98f1-49a8-88e8-cf3a8e73f3c6</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">10.29.2021::20:15:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.29.2021::20:15:9</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hid type="a">GUID 963bc813-ee2e-4368-ad65-742bd6676ffb</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hid type="a">GUID 1f8eaf05-d04d-4722-9950-dc0a32ca5b03</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

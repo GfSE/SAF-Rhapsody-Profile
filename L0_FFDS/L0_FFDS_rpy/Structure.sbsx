@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202011191713</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 5f8082a7-41a0-4c6f-8acd-68fa7275b6fb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Structure</_name>
+			<_modifiedTimeWeak type="a">10.11.2021::19:12:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">10.11.2021::19:12:46</_modifiedTime>
+			<weakCGTime type="a">10.11.2021::19:12:46</weakCGTime>
+			<strongCGTime type="a">10.11.2021::19:12:46</strongCGTime>
+			<_defaultComposite type="s">GUID 765a66e7-8b28-4895-a28d-f9f9b1e2d545</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 411d6753-9e71-4819-9c9c-b0d878bd5c78</value>
+				<value>GUID 1f8eaf05-d04d-4722-9950-dc0a32ca5b03</value>
+				<value>GUID f5545578-c159-49f5-9b30-83459999037b</value>
+				<value>GUID 765a66e7-8b28-4895-a28d-f9f9b1e2d545</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SysRS</fileName>
+			<_id type="a">GUID 411d6753-9e71-4819-9c9c-b0d878bd5c78</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">StRS</fileName>
+			<_id type="a">GUID 1f8eaf05-d04d-4722-9950-dc0a32ca5b03</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">RequirementsToSynchronize</fileName>
+			<_id type="a">GUID f5545578-c159-49f5-9b30-83459999037b</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 765a66e7-8b28-4895-a28d-f9f9b1e2d545</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

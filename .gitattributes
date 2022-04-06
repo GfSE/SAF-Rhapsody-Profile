@@ -1,0 +1,31 @@
+# Following files are treated as binary files
+# GIT does not try to merge them
+# "Old" Rhapsody files
+*.rpy binary 
+*.rpw binary
+*.sbs binary
+*.cls binary
+*.cmp binary
+*.ehl binary
+*.omd binary
+*.msc binary
+*.ucd binary
+*.ctd binary
+*.clb binary
+*.dpd binary
+*.std binary
+# "New" Rhapsody files
+*.rpyx binary 
+*.rpwx binary
+*.sbsx binary
+*.clsx binary
+*.cmpx binary
+*.ehlx binary
+*.omdx binary
+*.mscx binary
+*.ucdx binary
+*.ctdx binary
+*.clbx binary
+*.dpdx binary
+*.stdx binary
+*.keep binary

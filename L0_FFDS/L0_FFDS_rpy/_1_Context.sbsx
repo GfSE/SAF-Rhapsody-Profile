@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202011191713</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 303cd629-0842-401f-ab8c-d210356476ae</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">_1_Context</_name>
+			<_modifiedTimeWeak type="a">11.24.2021::15:47:22</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\A_TdSE.sbsx</_hfilename>
+					<_hsubsystem type="a">_00_GeneralPkg::FavoritesPkg::A_TdSE</_hsubsystem>
+					<_hname type="a">BDD_ViewsElaborated</_hname>
+					<_hid type="a">GUID d4492b1e-841d-4122-b585-a10ccec610b9</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">11.24.2021::16:3:23</_modifiedTime>
+			<weakCGTime type="a">11.24.2021::15:47:22</weakCGTime>
+			<strongCGTime type="a">11.24.2021::15:47:22</strongCGTime>
+			<_defaultComposite type="s">GUID 63f1d8a1-34c3-4330-91e6-68f0352bbff8</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID b5c482a7-6a1f-474d-8595-05a69ec1a7d8</value>
+				<value>GUID a8e507e0-b380-4c63-90e0-84d515a496c1</value>
+				<value>GUID 2a2dce75-9085-4af4-8126-0bf2619bdf2e</value>
+				<value>GUID 63f1d8a1-34c3-4330-91e6-68f0352bbff8</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IMHyperLink type="e">
+			<_id type="a">GUID b5c482a7-6a1f-474d-8595-05a69ec1a7d8</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::15:32:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::15:32:15</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\OperationalStories.sbsx</_hfilename>
+					<_hsubsystem type="a">_01_OperationalAnalysisPkg::Context::OperationalContext01::OperationalStories</_hsubsystem>
+					<_hname type="a">Examplary Operational Story</_hname>
+					<_hid type="a">GUID 04f9c287-3d56-4f83-b571-731c295e9e24</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Examplary Operational Story</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID a8e507e0-b380-4c63-90e0-84d515a496c1</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::15:47:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::15:47:16</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\OperationalContext01.sbsx</_hfilename>
+					<_hsubsystem type="a">_01_OperationalAnalysisPkg::Context::OperationalContext01</_hsubsystem>
+					<_hname type="a">FDN Context Definition</_hname>
+					<_hid type="a">GUID cd40812c-e875-4d75-9996-8b41fd81939f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">FDN Context Definition</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 2a2dce75-9085-4af4-8126-0bf2619bdf2e</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::15:47:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::15:47:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IStructureDiagram</_hm2Class>
+					<_hfilename type="a">.\OperationalContext01.sbsx</_hfilename>
+					<_hsubsystem type="a">_01_OperationalAnalysisPkg::Context::OperationalContext01</_hsubsystem>
+					<_hclass type="a">FireDetectionAndNotificationContext</_hclass>
+					<_hname type="a">FDN Context Exchange</_hname>
+					<_hid type="a">GUID b37a83d8-32f5-4a63-a85d-2497ad3ac88c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">FDN Context Exchange</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IClass type="e">
+			<_id type="a">GUID 63f1d8a1-34c3-4330-91e6-68f0352bbff8</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

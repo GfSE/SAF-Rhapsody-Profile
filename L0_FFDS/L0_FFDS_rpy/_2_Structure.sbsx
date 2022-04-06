@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202011191713</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 72caeefc-6085-4a23-91f7-60e08f2ef00a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">_2_Structure</_name>
+			<_modifiedTimeWeak type="a">11.24.2021::15:51:58</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\A_TdSE.sbsx</_hfilename>
+					<_hsubsystem type="a">_00_GeneralPkg::FavoritesPkg::A_TdSE</_hsubsystem>
+					<_hname type="a">BDD_ViewsElaborated</_hname>
+					<_hid type="a">GUID d4492b1e-841d-4122-b585-a10ccec610b9</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">11.24.2021::16:3:23</_modifiedTime>
+			<weakCGTime type="a">11.24.2021::15:51:58</weakCGTime>
+			<strongCGTime type="a">11.24.2021::15:51:58</strongCGTime>
+			<_defaultComposite type="s">GUID 47fce8b9-40b0-4381-a6ef-019975e159de</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID ec65075e-a86a-417e-88e3-9a51b554ca65</value>
+				<value>GUID 43db2dbf-3644-4193-a818-4c6a1810f2aa</value>
+				<value>GUID d6bb2565-4e54-4720-975e-c9e94b0d4359</value>
+				<value>GUID 47fce8b9-40b0-4381-a6ef-019975e159de</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IMHyperLink type="e">
+			<_id type="a">GUID ec65075e-a86a-417e-88e3-9a51b554ca65</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::15:50:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::15:50:2</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Operational_ItemFlowsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">_03_InterfacesPkg::Operational_ItemFlowsPkg</_hsubsystem>
+					<_hname type="a">Operational Domain Item Definition</_hname>
+					<_hid type="a">GUID 00c57073-28fa-4f5e-917d-70c845359cfd</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Operational Domain Item Definition</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 43db2dbf-3644-4193-a818-4c6a1810f2aa</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::15:50:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::15:50:11</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\OperationalPerformerPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">_02_ActorPkg::OperationalPerformerPkg</_hsubsystem>
+					<_hname type="a">Operational Performer Definition</_hname>
+					<_hid type="a">GUID 003b93ab-29dc-4285-8e09-81fde7c44f65</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Operational Performer Definition</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID d6bb2565-4e54-4720-975e-c9e94b0d4359</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::15:51:58</_modifiedTimeWeak>
+			<HyperLinks type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</HyperLinks>
+			<_modifiedTime type="a">11.24.2021::15:51:58</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\OperationalCapabilities.sbsx</_hfilename>
+					<_hsubsystem type="a">_01_OperationalAnalysisPkg::Structure::OperationalCapabilities</_hsubsystem>
+					<_hname type="a">SAR &amp; FDN Capability Definition</_hname>
+					<_hid type="a">GUID 2fa4c4ff-5891-4901-bc43-bed42674f116</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">SAR &amp; FDN Capability Definition</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IClass type="e">
+			<_id type="a">GUID 47fce8b9-40b0-4381-a6ef-019975e159de</_id>
+			<_myState type="a">40960</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

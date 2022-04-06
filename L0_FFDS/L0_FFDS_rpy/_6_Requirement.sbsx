@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202110051520</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 0fadb0d9-a6b2-4090-8d8e-4763eeff95b1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">_6_Requirement</_name>
+			<_modifiedTimeWeak type="a">3.25.2022::11:3:27</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\SAFGridPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">_00_GeneralPkg::SAFGridPkg</_hsubsystem>
+					<_hname type="a">StartHere_SAF_Grid</_hname>
+					<_hid type="a">GUID d4492b1e-841d-4122-b585-a10ccec610b9</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">3.25.2022::11:3:27</_modifiedTime>
+			<weakCGTime type="a">3.25.2022::11:3:27</weakCGTime>
+			<strongCGTime type="a">11.24.2021::15:52:14</strongCGTime>
+			<_defaultComposite type="s">GUID b709ebac-9955-44d4-bfb2-00b609295181</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 6191d9f1-2059-4bc0-af3b-b81f1f294b33</value>
+				<value>GUID b709ebac-9955-44d4-bfb2-00b609295181</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 6191d9f1-2059-4bc0-af3b-b81f1f294b33</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::15:52:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::15:52:14</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ITableInstance</_hm2Class>
+					<_hfilename type="a">.\StRS.sbsx</_hfilename>
+					<_hsubsystem type="a">_04_RequirementAnalysisPkg::Structure::StRS</_hsubsystem>
+					<_hname type="a">TableV_StRS</_hname>
+					<_hid type="a">GUID 789e2b06-374e-4a0b-b39f-e73ce51666a9</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">TableV_StRS</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<_linkTarget type="a">hyperlink_0</_linkTarget>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IClass type="e">
+			<_id type="a">GUID b709ebac-9955-44d4-bfb2-00b609295181</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

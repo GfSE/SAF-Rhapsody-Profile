@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202110051520</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 03a344c6-6c59-4aed-9761-82b800bf70cb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">_8_CrossReference</_name>
+			<_modifiedTimeWeak type="a">3.24.2022::17:0:59</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\SAFGridPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">_00_GeneralPkg::SAFGridPkg</_hsubsystem>
+					<_hname type="a">StartHere_SAF_Grid</_hname>
+					<_hid type="a">GUID d4492b1e-841d-4122-b585-a10ccec610b9</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">3.24.2022::17:2:52</_modifiedTime>
+			<weakCGTime type="a">3.24.2022::17:0:59</weakCGTime>
+			<strongCGTime type="a">11.24.2021::15:36:38</strongCGTime>
+			<_defaultComposite type="s">GUID c8fcbf03-2cd6-416e-aec1-38dfb75f1d6c</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 0ccea7a2-acc2-47f5-a644-e24f90b42eb7</value>
+				<value>GUID c8fcbf03-2cd6-416e-aec1-38dfb75f1d6c</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 0ccea7a2-acc2-47f5-a644-e24f90b42eb7</_id>
+			<_modifiedTimeWeak type="a">3.24.2022::17:0:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2022::17:0:59</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Mapping.sbsx</_hfilename>
+					<_hsubsystem type="a">_04_RequirementAnalysisPkg::Mapping</_hsubsystem>
+					<_hname type="a">BDD_Mapping_OperationalStory2StakeholderRequirements</_hname>
+					<_hid type="a">GUID 5332c470-b181-4989-b7b9-138478160e06</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">BDD_Mapping_OperationalStory2StakeholderRequirements</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IClass type="e">
+			<_id type="a">GUID c8fcbf03-2cd6-416e-aec1-38dfb75f1d6c</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

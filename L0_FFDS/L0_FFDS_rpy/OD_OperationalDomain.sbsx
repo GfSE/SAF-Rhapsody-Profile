@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202011191713</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 16ed5892-962a-4940-b0b2-0cffc5c51cbe</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OD_OperationalDomain</_name>
+			<_modifiedTimeWeak type="a">11.24.2021::15:36:26</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\A_TdSE.sbsx</_hfilename>
+					<_hsubsystem type="a">_00_GeneralPkg::FavoritesPkg::A_TdSE</_hsubsystem>
+					<_hname type="a">BDD_ViewsElaborated</_hname>
+					<_hid type="a">GUID d4492b1e-841d-4122-b585-a10ccec610b9</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<HyperLinks type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</HyperLinks>
+			<_modifiedTime type="a">11.24.2021::15:37:26</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">11.24.2021::15:36:26</weakCGTime>
+			<strongCGTime type="a">11.24.2021::15:30:32</strongCGTime>
+			<_defaultComposite type="s">GUID 90b24775-ce6b-4d84-a91f-2b11dd4b6bb5</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">11.24.2021::15:33:59</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 303cd629-0842-401f-ab8c-d210356476ae</value>
+				<value>GUID 72caeefc-6085-4a23-91f7-60e08f2ef00a</value>
+				<value>GUID 98ac44d2-d639-468d-b4e2-d7539dfc6089</value>
+				<value>GUID 8c0cb727-1f2f-4430-99d0-35ddc91e3c82</value>
+				<value>GUID 3f4ba45c-8ba2-4808-ad51-a65b99b4f85b</value>
+				<value>GUID 0fadb0d9-a6b2-4090-8d8e-4763eeff95b1</value>
+				<value>GUID 8f81756d-c145-4611-bbaa-4bfbbcd875b8</value>
+				<value>GUID 03a344c6-6c59-4aed-9761-82b800bf70cb</value>
+				<value>GUID 90b24775-ce6b-4d84-a91f-2b11dd4b6bb5</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_1_Context</fileName>
+			<_id type="a">GUID 303cd629-0842-401f-ab8c-d210356476ae</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_2_Structure</fileName>
+			<_id type="a">GUID 72caeefc-6085-4a23-91f7-60e08f2ef00a</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_3_Behavior</fileName>
+			<_id type="a">GUID 98ac44d2-d639-468d-b4e2-d7539dfc6089</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_4_Interaction</fileName>
+			<_id type="a">GUID 8c0cb727-1f2f-4430-99d0-35ddc91e3c82</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_5_Interface</fileName>
+			<_id type="a">GUID 3f4ba45c-8ba2-4808-ad51-a65b99b4f85b</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_6_Requirement</fileName>
+			<_id type="a">GUID 0fadb0d9-a6b2-4090-8d8e-4763eeff95b1</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_7_SecSafety</fileName>
+			<_id type="a">GUID 8f81756d-c145-4611-bbaa-4bfbbcd875b8</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_8_CrossReference</fileName>
+			<_id type="a">GUID 03a344c6-6c59-4aed-9761-82b800bf70cb</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 90b24775-ce6b-4d84-a91f-2b11dd4b6bb5</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

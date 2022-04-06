@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202110051520</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<IProject type="e">
+			<_id type="a">GUID 71f709d7-6792-443a-a0e6-11dac03b2f6b</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Browser</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Settings</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DisplayMode</_Name>
+													<_Value type="a">Meta-class</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Flat,Meta-class</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowPredefinedPackage</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">EngineeringPublishing</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ReportImageFormat</_Name>
+													<_Value type="a">EMF</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">BMP,EMF,JPG</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">AdditionalCompartments</_Name>
+													<_Value type="a">AllocatedFrom, AllocatedTo,ProxyPort,FullPort,FlowProperty,ValueProperty,HyperLink,Package</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ResizeWithoutContainedElements</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">WrapNameCompartmentText</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Model</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">AutoSaveInterval</_Name>
+													<_Value type="a">5</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">PathInProjectList</_Name>
+													<_Value type="a">Relative</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Absolute, Relative</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ReferenceUnitPath</_Name>
+													<_Value type="a">Relative</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Absolute, Relative</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">RenameUnusedFiles</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">SEToolkit</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">General</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultStartupSettings</_Name>
+													<_Value type="a">None</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">None,HarmonyAgile,HarmonyClassic</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowStartupWizard</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">L0_FFDS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">SysML</_hsubsystem>
+							<_hname type="a">SysML</_hname>
+							<_hid type="a">GUID 052b8171-a32b-4f45-a829-5585f79f9deb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.6.2022::19:21:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.6.2022::19:21:23</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_UserColors type="w">
+				<IRPYRawContainer type="e">
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+				</IRPYRawContainer>
+			</_UserColors>
+			<_defaultSubsystem type="r">
+				<ISubsystemHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hname type="a">_04_RequirementAnalysisPkg</_hname>
+					<_hid type="a">GUID 95f28cb0-3889-4abb-bc3c-5d30831ddad8</_hid>
+				</ISubsystemHandle>
+			</_defaultSubsystem>
+			<_component type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IComponent</_hm2Class>
+					<_hname type="a">DefaultComponent</_hname>
+					<_hid type="a">GUID f3b353ab-cf27-48d8-b9e2-d15ac79786a4</_hid>
+				</IHandle>
+			</_component>
+			<Multiplicities type="c">
+				<IRPYRawContainer type="e">
+					<IMultiplicityItem type="e">
+						<_name type="a">1</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">*</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">0,1</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">1..*</_name>
+						<_count type="a">1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">0..*</_name>
+						<_count type="a">2</_count>
+					</IMultiplicityItem>
+					
+				</IRPYRawContainer>
+			</Multiplicities>
+			<_isImportedFromDM type="a">0</_isImportedFromDM>
+			<Diagrams type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Diagrams>
+			<mapOslcAddedCollections type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</mapOslcAddedCollections>
+			<mapAssociationsToRemove type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</mapAssociationsToRemove>
+			<AggregatesList type="e">
+				<value>GUID d9689b73-885e-44c4-896b-de43defa0a33</value>
+				<value>GUID ab285915-0966-4322-a029-ffac3e6ef3df</value>
+				<value>GUID 29d4fccc-40d9-4cb3-af8a-d7464f198819</value>
+				<value>GUID 32017059-dc19-4991-9b3b-3e919d8da0ac</value>
+				<value>GUID df74e113-2ae8-4e84-9d4c-16b1767ec004</value>
+				<value>GUID edd53531-bb3d-4c56-8b25-6564930fe9ee</value>
+				<value>GUID 7288f819-1884-4330-98a8-30a113bf1f7e</value>
+				<value>GUID 95f28cb0-3889-4abb-bc3c-5d30831ddad8</value>
+				<value>GUID 50978c20-26f0-4d10-8161-25349ae5c40b</value>
+				<value>GUID 5fb70c0c-7490-453e-ab54-a810cb1cfc7a</value>
+				<value>GUID 3a6d44fb-9823-4292-87eb-e459b7ee2325</value>
+				<value>GUID af42d4a9-100c-4c4b-a215-522f21d10e24</value>
+				<value>GUID f3b353ab-cf27-48d8-b9e2-d15ac79786a4</value>
+			</AggregatesList>
+		</IProject>
+		<IProfile type="e">
+			<fileName type="a">SysML</fileName>
+			<_persistAs type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy</_persistAs>
+			<_id type="a">GUID d9689b73-885e-44c4-896b-de43defa0a33</_id>
+			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">SysMLPerspectives</fileName>
+			<_persistAs type="a">$OMROOT\Settings\SysMLPerspectives</_persistAs>
+			<_id type="a">GUID ab285915-0966-4322-a029-ffac3e6ef3df</_id>
+			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">HarmonySE</fileName>
+			<_persistAs type="a">$OMROOT\Profiles\HarmonySE</_persistAs>
+			<_id type="a">GUID 29d4fccc-40d9-4cb3-af8a-d7464f198819</_id>
+			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">SAF_Profile</fileName>
+			<_persistAs type="a">..\..\SAF_Profile\SAF_Profile_rpy</_persistAs>
+			<_id type="a">GUID 32017059-dc19-4991-9b3b-3e919d8da0ac</_id>
+			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
+		</IProfile>
+		<IComment type="e">
+			<_id type="a">GUID df74e113-2ae8-4e84-9d4c-16b1767ec004</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Readme</_name>
+			<_modifiedTimeWeak type="a">4.6.2022::19:21:23</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial;}}%0D
+{\colortbl ;\red0\green0\blue255;}%0D
+\viewkind4\uc1\pard\sb100\sa100\cf1\b\f0\fs22 L0_FFDS Rhapsody Project.\par%0D
+The structure of the model is a best practise and no requirement.\par%0D
+These files of the project are intended to be used together with the SAF_Profile for Rhapsody v9.0.1 or higher. It features an example model, which has been created according to the SAF Framework.\cf0\b0   \par%0D
+\pard Copyright [2022] [Markus Andres, Sascha Ackva]\par%0D
+ \par%0D
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  \par%0D
+\par%0D
+\cf1\ul\protect http://www.apache.org/licenses/LICENSE-2.0 \cf0\ulnone\protect0\par%0D
+\par%0D
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\par%0D
+\par%0D
+\cf1\b The L0_FFDS example model is based on the following publication SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens. \cf0\b0\par%0D
+\par%0D
+\f1\fs20\par%0D
+}%0D
+</_textRTF>
+				<Hyperlinks type="c">
+					<IRPYRawContainer type="e">
+						<IExternalHyperlink type="e">
+							<_name type="a">http://www.apache.org/licenses/LICENSE-2.0 </_name>
+							<_textType type="a">FREE</_textType>
+							<_target type="a">http://www.apache.org/licenses/LICENSE-2.0 </_target>
+						</IExternalHyperlink>
+						
+					</IRPYRawContainer>
+				</Hyperlinks>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.6.2022::19:21:23</_modifiedTime>
+		</IComment>
+		<IMHyperLink type="e">
+			<_id type="a">GUID edd53531-bb3d-4c56-8b25-6564930fe9ee</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::16:18:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::16:18:18</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hsubsystem type="a">_00_GeneralPkg::SAFGridPkg</_hsubsystem>
+					<_hname type="a">StartHere_SAF_Grid</_hname>
+					<_hid type="a">GUID d4492b1e-841d-4122-b585-a10ccec610b9</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">StartHere_SAF_Grid</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 7288f819-1884-4330-98a8-30a113bf1f7e</_id>
+			<_modifiedTimeWeak type="a">11.24.2021::16:38:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.24.2021::16:38:50</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hsubsystem type="a">_00_GeneralPkg::FavoritesPkg::A_TdSE</_hsubsystem>
+					<_hname type="a">ViewsElaborated_4TdSE</_hname>
+					<_hid type="a">GUID 477a40f6-678e-4c09-8e26-88eb055b5985</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">ViewsElaborated_4TdSE</_linkDispName>
+			<_linkType type="a">NAME</_linkType>
+			<isConfigurationFileHyperLink type="a">0</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<ISubsystem type="e">
+			<fileName type="a">_04_RequirementAnalysisPkg</fileName>
+			<_id type="a">GUID 95f28cb0-3889-4abb-bc3c-5d30831ddad8</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_01_OperationalAnalysisPkg</fileName>
+			<_id type="a">GUID 50978c20-26f0-4d10-8161-25349ae5c40b</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_03_InterfacesPkg</fileName>
+			<_id type="a">GUID 5fb70c0c-7490-453e-ab54-a810cb1cfc7a</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_02_ActorPkg</fileName>
+			<_id type="a">GUID 3a6d44fb-9823-4292-87eb-e459b7ee2325</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">_00_GeneralPkg</fileName>
+			<_id type="a">GUID af42d4a9-100c-4c4b-a215-522f21d10e24</_id>
+		</ISubsystem>
+		<IComponent type="e">
+			<fileName type="a">DefaultComponent</fileName>
+			<_id type="a">GUID f3b353ab-cf27-48d8-b9e2-d15ac79786a4</_id>
+		</IComponent>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

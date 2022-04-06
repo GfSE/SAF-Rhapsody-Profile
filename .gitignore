@@ -1,0 +1,20 @@
+#git ls-files --others --exclude-from=.git/info/excludeLines that #start with '#' are comments.
+#For a project mostly in C, the following would be a good set of
+#exclude patterns (uncomment them if you want to use them):
+#*.[oa]
+#*~
+#/.metadata/
+*/log/
+*_auto_rpy
+*_auto_rpyx
+#Ignore old RHP Model files
+*.rhpold
+*.rphold1
+*.rhpold2
+*.rphold3
+*.log
+*.rpw
+*.rpwx
+*.ehl
+*.cg_info
+*.keep
