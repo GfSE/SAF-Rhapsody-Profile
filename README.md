@@ -1,2 +1,15 @@
-# SAF-Rhapsody-Profile
-SAF profile and examples used for TdSE2021 Presentation for the SysML Tool Rhapsody. -Currently Only Operational Domain-
+# SAF Rhapsody Repository
+SAF profile and examples used for TdSE2021 Presentation for the SysML Tool Rhapsody. 
+
+-Operational Domain available-
+-... upcoming Functional Domain-
+
+The repository features the SAF Profile and the SAF FFDS Example presented at TdSE 2021. Both, Profile and Example are intended to be used with IBM Rhapsody (v9.0.1 iFix2). Please see the model file itself for licensing terms.
+
+# SAF_Profile
+**System Architecture Framework SAF_Profile** has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification).
+
+# L0_FFDS
+**Fire Forest Detection System SAF_FFDS** Example has been created by SAF Working Group of the German Chapter of INCOSE (GfSE) according to the SAF Framework rules. Check out content diagram **SAF_FFDS_view_grid** for an overview of views and the navigation possibiliy to diagrams.
+
+The SAF_FFDS Example is based on the following publication: [SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML - Tim Weilkiens](https://www.oose.de/nuetzliches/sysmod-the-systems-modeling-toolbox/)
