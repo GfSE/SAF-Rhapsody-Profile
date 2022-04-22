@@ -1,4 +1,4 @@
-# SAF Rhapsody Repository
+# IBM Rhapsody Repository
 SAF profile and examples used for TdSE2021 Presentation for the SysML Tool Rhapsody. 
 
 **Operational Domain available**
