@@ -1,9 +1,0 @@
-Subject General
-	Metaclass ElementCreator
-		Property BasePathForCustomCSVFiles String "$OMROOT/Profiles/ElementCreator"
-		Property PathToElementsFile String "$OMROOT/Profiles/ElementCreator/Launch Element Creator.csv"
-		Property ElementCreatorName String "SysML Element Creator"
-		Property LockOnSelectedElementAtLaunch Bool "False"
-	end
-end
-end
