@@ -1,0 +1,43 @@
+[helpers]
+numberOfElements=6
+
+name1=ElementCreator
+JavaMainClass1=com.ibm.rhapsody.andyl.uaf.elementCreator.ElementCreator_Launcher
+JavaClassPath1=$OMROOT/Profiles/SAF_Profile/ElementCreator/Apps/ElementCreator.jar
+isPlugin1=1
+
+name2=SAF Toolkit\Create Common Domain Views
+isPluginCommand2=1
+command2=ElementCreator
+applicableToNonStrict2=Project,Package,SysML,UseCaseDiagram
+isVisible2=1
+helperTriggers2=
+
+name3=SAF Toolkit\Create Operational Domain Views
+isPluginCommand3=1
+command3=ElementCreator
+applicableToNonStrict3=Project,Package,SysML,UseCaseDiagram
+isVisible3=1
+helperTriggers3=
+
+name4=SAF Toolkit\Create Functional Domain Views
+isPluginCommand4=1
+command4=ElementCreator
+applicableToNonStrict4=Project,Package,SysML,UseCaseDiagram
+isVisible4=1
+helperTriggers4=
+
+name5=SAF Toolkit\Create Logical Domain Views
+isPluginCommand5=1
+command5=ElementCreator
+applicableToNonStrict5=Project,Package,SysML,UseCaseDiagram
+isVisible5=1
+helperTriggers5=
+
+name6=SAF Toolkit\Create Physical Domain Views
+isPluginCommand6=1
+command6=ElementCreator
+applicableToNonStrict6=Project,Package,SysML,UseCaseDiagram
+isVisible6=1
+helperTriggers6=
+

@@ -1,0 +1,7 @@
+Include "PropertyFiles/Model Properties.prp"
+Include "PropertyFiles/Export Document.prp"
+Include "PropertyFiles/ConditionalProperties.prp"
+Include "PropertyFiles/Stereotype Properties.prp"
+Include "PropertyFiles/ElementCreator.prp"
+Include "PropertyFiles/SAF Perspectives.prp"
+end

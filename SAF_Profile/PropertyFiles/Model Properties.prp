@@ -1,0 +1,13 @@
+Subject General
+	Metaclass Model
+		Property AutoSaveInterval Int "5"
+		Property ShowHoveringToolbar Bool "False"
+		Property ReferenceUnitPath Enum "Absolute,Relative" "Relative"
+		Property RenameUnusedFiles Bool "True"
+		Property PathInProjectList Enum "Absolute,Relative" "Relative"
+	end
+	Metaclass Profile
+		Property AutoReferences String "$OMROOT/Profiles/SysML/SysMLProfile_rpy/SysML.sbs"
+	end
+end
+end
