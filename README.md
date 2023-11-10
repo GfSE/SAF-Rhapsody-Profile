@@ -1,14 +1,31 @@
 # IBM Rhapsody Repository
-The repository features the IBM Rhapsody **SAF Profile** as Profile which has to be copied to "C:\Program Files\IBM\Rhapsody\9.0.2\Share\Profiles" with supplemental material. The **SAF Profile** is intended to be used with Rhapsody 9.0.x.
+This repository provides the current release of the **SAF Profile** intended to be used with IBM Rhapsody 9.0.x. Please see the model file itself for licensing terms.
+
+Please see the model file itself for licensing terms.
 
 ## SAF_Profile
-**SAF Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile provides the stereotypes, specification views according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification) based on Rhapsody ModelBuilder Technology of Andy Lapping .
+**SAF Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/), [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
+For the creation of the SAF profile the Model Builder Technology of SodiusWillert https://www.sodiuswillert.com/en/home has been used.
 
-The SAF_FFDS Example is based on the following publication: [SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML - Tim Weilkiens](https://www.oose.de/nuetzliches/sysmod-the-systems-modeling-toolbox/)
-
+## Start using the SAF_Profile in IBM Rhapsody
+### Step 1
+Copy the **SAF_Profile** folder to "C:\Program Files\IBM\Rhapsody\9.0.2\Share\Profiles" with supplemental material.
+### Step 2
+Create a new project based on the **SAF_Profile**
+### Step 3
+While creating a new IBM Rhapsody model select the newly created IBM Rhapsody Project and open the context menu via right click. Within the context menu you will find the entry **SAF Toolkit**
+### Step 4
+Select one entry to start one helper for the dedicated Domain.
+* Create Common Domains Views
+* Create Operational Domains Views
+* Create Functional Domains Views
+* Create Logical Domains Views
+* Create Physical Domains Views
+### Step 4
+Click on the relevant Viewpoint to generate the diagram. The toolbar is available if the dedicated Perspective is selected according to the domain.
 
 ## Versions
-This is the main branch, reflecting the current development and it is updated as appropriate.
+This is the main branch, reflecting the current development and it is updated as required.
 
 The following releases are available, each is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/Initial-Release)
