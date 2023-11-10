@@ -1,0 +1,3 @@
+This System Architecture Framework (SAF) Profile for IBM Rhapsody will be used to develop technical systems.
+Contact for further Information: Markus Andres 
+URL: https://github.com/GfSE/SAF-Specification

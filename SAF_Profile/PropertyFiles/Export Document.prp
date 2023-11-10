@@ -1,0 +1,9 @@
+Subject General
+	Metaclass Graphics
+		Property ExportedDiagramScale Enum "FitToOnePage,NoPagination,UsePrintLayout" "NoPagination"
+	end
+	Metaclass EngineeringPublishing
+		Property ReportImageFormat Enum "BMP,EMF,JPG" "EMF"
+	end
+end
+end

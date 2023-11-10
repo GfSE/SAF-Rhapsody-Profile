@@ -1,0 +1,338 @@
+Subject Dialog
+	Metaclass SAF_OperationalCapability
+		Property HideTabsInFeaturesDialog String "?<IsConditionalProperty>$<Model::Stereotype::$<General::Model::SelectedPerspective>_SAF_OperationalCapability_HideTabsInFeaturesDialog>"
+	end
+end
+Subject Model
+	Metaclass Stereotype
+		Property CommonDomain_ShowHoveringToolbar String "True"
+		Property OperationalDomain_HidePopupMenuEntries MultiLine "Edit Code,Edit Configuration Main File,Edit Configuration Main and Make Files,Edit Makefile"
+		Property OperationalDomain_ShowHoveringToolbar String "True"
+		Property OperationalDomain_SAF_OperationalCapability_HideTabsInFeaturesDialog String "?<IsConditionalProperty>$<Model::Stereotype::$<General::Model::SelectedPerspective>_Hidden_Feature_Tabs_-_Ports_(All)_HiddenTabList>"
+		Property OperationalDomain_Hidden_Feature_Tabs_-_Ports_(All)_HiddenTabList String "Flow Ports,Full Ports,Ports"
+		Property FunctionalDomain_ShowHoveringToolbar String "True"
+		Property LogicalDomain_ShowHoveringToolbar String "True"
+		Property PhysicalDomain_ShowHoveringToolbar String "True"
+		Property SysML_ShowHoveringToolbar String "True"
+	end
+end
+Subject General
+	Metaclass Graphics
+		Property CommonDomain_SAF_SCV02a_View_ArgumentationAssuranceToolbar MultiLine "SAF_ArgumentClaimSupport,SAF_Argument,SAF_ClaimAboutSubjectMaking,SAF_ClaimClaimableItemSupport,SAF_Claim,SAF_ClaimantClaimMaking,SAF_Claimant,SAF_CounterClaimClaimableItemMaking,SAF_CounterClaim,SAF_EvidenceArgumentReinforcement,SAF_Evidence,SAF_Refuter,SAF_Subject"
+		Property CommonDomain_SAF_SFV01b_View_SystemContextDefinitionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV02b_View_SystemCapabilityToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV01c_View_SystemContextExchangeToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV02a_View_SystemDomainItemKindToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV01a_View_SystemUseCaseToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV03a_View_SystemProcessToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV03c_View_SystemStateToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV03b_View_SystemFunctionalRefinementToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV02c_View_SystemFunctionalBreakdownStructureToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV04a_View_SystemContextInteractionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV05a_View_SystemInterfaceDefinitionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV06a_View_SystemRequirement_DiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV08b_View_SystemRequirementTraceability_DiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SFV08a_View_SystemCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SLV08a_View_LogicalFunctionalMapping_DiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SLV02a_View_LogicalStructureToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SLV04b_View_LogicalInternalExchangeToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SLV04a_View_LogicalInternalInteractionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV01b_View_OperationalContextDefinitionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV02b_View_OperationalPerformerDefinitionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV02a_View_OperationalDomainItemKindToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV02c_View_OperationalCapabilityDiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV02d_View_StakeholderIdentificationToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV06a_View_StakeholderRequirement_DiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV08a_View_OperationalCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV08b_View_OperationalProcessMapping_DiagramToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV01c_View_OperationalContextExchangeToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV01a_View_OperationalStoryToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV04a_View_OperationalInteractionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SOV03a_View_OperationalProcessToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SPV01b_View_PhysicalContextDefinitionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SPV01c_View_PhysicalContextExchangeToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SPV02a_View_PhysicalStructureToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SPV04b_View_PhysicalInternalExchangeToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SPV05a_View_PhysicalInterfaceDefinitionToolbar MultiLine "Comment"
+		Property CommonDomain_SAF_SPV08a_View_PhysicalLogicalMapping_DiagramToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SOV02c_View_OperationalCapabilityDiagramToolbar MultiLine "SAF_OperationalCapability,SAF_OperationalCapabilityDependency,SAF_OperationalCapabilityGeneralization,SAF_OperationalCapabilityComposition,Dependency"
+		Property OperationalDomain_SAF_SOV08a_View_OperationalCapabilityMapping_DiagramToolbar MultiLine "SAF_OperationalCapability,SAF_OperationalCapabilityDependency,SAF_OperationalCapabilityGeneralization,SAF_OperationalPerformer,SAF_OperationalPerformerExhibit,SAF_OperationalProcessEnabling,SAF_OperationalStory,Dependency"
+		Property OperationalDomain_SAF_SOV01b_View_OperationalContextDefinitionToolbar MultiLine "SAF_OperationalContext,SAF_OperationalPerformer,SAF_OperationalContextRole,Directed Composition,Dependency"
+		Property OperationalDomain_SAF_SOV01c_View_OperationalContextExchangeToolbar MultiLine "SAF_OperationalDomainKind,SAF_OperationalContextRole,Flow,Connector,Dependency"
+		Property OperationalDomain_SAF_SOV02a_View_OperationalDomainItemKindToolbar MultiLine "SAF_OperationalDomainKind,SAF_OperationalDomainKindComposition,Directed Composition,Aggregation,Directed Association,AssociationEnd,Generalization,Dependency"
+		Property OperationalDomain_SAF_SOV02b_View_OperationalPerformerDefinitionToolbar MultiLine "SAF_OperationalPerformer,SAF_OperationalContextRole,SAF_Stakeholder,SAF_OperationalPerformerComposition,SAF_OperationalStakeholderRepresentation,Dependency"
+		Property OperationalDomain_SAF_SOV03a_View_OperationalProcessToolbar MultiLine "SAF_OperationalProcessAction,CallBehavior,ActionPin,SendAction,AcceptEventAction,AcceptTimeEvent,InitialFlow,ControlFlow,ObjectFlow,InterruptibleRegion,ActivityParameter,ObjectNode,DecisionNode,MergeNode,DiagramConnector,JoinConnector,ForkConnector,ActivityFinal,FlowFinal,SwimlaneFrame,SwimlaneDivider,Dependency"
+		Property OperationalDomain_SAF_SOV04a_View_OperationalInteractionToolbar MultiLine "SAF_OperationalContextRole,SAF_OperationalPerformer,InstanceLine,EnvironmentLine,Message,EventMessage,ReplyMessage,TimeintervalMessage,PartitionLine,Condition Mark,ExecutionOccurrence,InteractionOccurrence,InteractionOperator,InteractionOperand,Dependency"
+		Property OperationalDomain_SAF_SOV01a_View_OperationalStoryToolbar MultiLine "SAF_OperationalContext,SAF_OperationalPerformer,SAF_OperationalPerformerActing,SAF_OperationalSketch,SAF_OperationalStory,Dependency"
+		Property OperationalDomain_SAF_SOV02d_View_StakeholderIdentificationToolbar MultiLine "SAF_ContextElementRepresentation,SAF_Stakeholder,SAF_StakeholderRelation,SAF_SystemOfInterestConcern,Dependency"
+		Property OperationalDomain_SAF_SOV06a_View_StakeholderRequirement_DiagramToolbar MultiLine "SAF_OperationalCapability,SAF_Stakeholder,SAF_StakeholderRequirement,SAF_StakeholderRequirementImposition,SAF_StakeholderRequirementRefinement,SAF_SystemOfInterestConcern,Dependency"
+		Property OperationalDomain_SAF_SOV08b_View_OperationalProcessMapping_DiagramToolbar MultiLine "SAF_OperationalCapability,SAF_OperationalPerformer,SAF_OperationalProcess,SAF_OperationalProcessAction,SAF_OperationalProcessEnabling,SAF_OperationalProcessRefinement,SAF_OperationalStory,Dependency"
+		Property OperationalDomain_SAF_SFV01b_View_SystemContextDefinitionToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV02b_View_SystemCapabilityToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV01c_View_SystemContextExchangeToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV02a_View_SystemDomainItemKindToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV01a_View_SystemUseCaseToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV03a_View_SystemProcessToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV03c_View_SystemStateToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV03b_View_SystemFunctionalRefinementToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV02c_View_SystemFunctionalBreakdownStructureToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV04a_View_SystemContextInteractionToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV05a_View_SystemInterfaceDefinitionToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV06a_View_SystemRequirement_DiagramToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV08b_View_SystemRequirementTraceability_DiagramToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SFV08a_View_SystemCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SLV08a_View_LogicalFunctionalMapping_DiagramToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SLV02a_View_LogicalStructureToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SLV04b_View_LogicalInternalExchangeToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SLV04a_View_LogicalInternalInteractionToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SPV01b_View_PhysicalContextDefinitionToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SPV01c_View_PhysicalContextExchangeToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SPV02a_View_PhysicalStructureToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SPV04b_View_PhysicalInternalExchangeToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SPV05a_View_PhysicalInterfaceDefinitionToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SPV08a_View_PhysicalLogicalMapping_DiagramToolbar MultiLine "Comment"
+		Property OperationalDomain_SAF_SCV02a_View_ArgumentationAssuranceToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV01b_View_OperationalContextDefinitionToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV02b_View_OperationalPerformerDefinitionToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV02a_View_OperationalDomainItemKindToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV02c_View_OperationalCapabilityDiagramToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV02d_View_StakeholderIdentificationToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV06a_View_StakeholderRequirement_DiagramToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV08a_View_OperationalCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV08b_View_OperationalProcessMapping_DiagramToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV01c_View_OperationalContextExchangeToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV01a_View_OperationalStoryToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV04a_View_OperationalInteractionToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SOV03a_View_OperationalProcessToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SFV01b_View_SystemContextDefinitionToolbar MultiLine "SAF_LogicalContext,SAF_LogicalContextRole,SAF_LogicalEnvironment,SAF_LogicalExternalSystem,SAF_LogicalSOI,SAF_LogicalUser,Directed Composition,Dependency"
+		Property FunctionalDomain_SAF_SFV02b_View_SystemCapabilityToolbar MultiLine "SAF_SystemCapability,SAF_SystemCapabilityComposition,SAF_SystemCapabilityDependency,SAF_SystemCapabilityEnabling,SAF_SystemCapabilityGeneralization,Dependency"
+		Property FunctionalDomain_SAF_SFV01c_View_SystemContextExchangeToolbar MultiLine "SAF_DomainKind,SAF_LogicalContextRole,Flow,Connector,ProxyPort,Dependency"
+		Property FunctionalDomain_SAF_SFV02a_View_SystemDomainItemKindToolbar MultiLine "SAF_DomainKind,SAF_DomainKindComposition,SAF_DomainKindDerivation,Dependency"
+		Property FunctionalDomain_SAF_SFV01a_View_SystemUseCaseToolbar MultiLine "SAF_LogicalContext,SAF_LogicalContextElementActing,SAF_LogicalEnvironment,SAF_LogicalExternalSystem,SAF_LogicalSOI,SAF_SystemUseCase,SAF_SystemUseCaseEnabling,Dependency"
+		Property FunctionalDomain_SAF_SFV03a_View_SystemProcessToolbar MultiLine "SAF_ContextAction,SAF_FunctionAction,CallBehavior,ActionPin,SendAction,AcceptEventAction,AcceptTimeEvent,InitialFlow,ControlFlow,ObjectFlow,InterruptibleRegion,ActivityParameter,ObjectNode,DecisionNode,MergeNode,DiagramConnector,JoinConnector,ForkConnector,ActivityFinal,FlowFinal,SwimlaneFrame,SwimlaneDivider,Dependency"
+		Property FunctionalDomain_SAF_SFV03c_View_SystemStateToolbar MultiLine "RpyDefault"
+		Property FunctionalDomain_SAF_SFV03b_View_SystemFunctionalRefinementToolbar MultiLine "SAF_FunctionAction,CallBehavior,ActionPin,SendAction,AcceptEventAction,AcceptTimeEvent,InitialFlow,ControlFlow,ObjectFlow,InterruptibleRegion,ActivityParameter,ObjectNode,DecisionNode,MergeNode,DiagramConnector,JoinConnector,ForkConnector,ActivityFinal,FlowFinal,Dependency"
+		Property FunctionalDomain_SAF_SFV02c_View_SystemFunctionalBreakdownStructureToolbar MultiLine "SAF_ContextFunction,SAF_SystemFunction,SAF_SystemPartialFunction,SAF_SystemProcess,DirectedComposition,Dependency"
+		Property FunctionalDomain_SAF_SFV04a_View_SystemContextInteractionToolbar MultiLine "SAF_LogicalContextRole,InstanceLine,EnvironmentLine,Message,EventMessage,ReplyMessage,TimeintervalMessage,PartitionLine,Condition Mark,ExecutionOccurrence,InteractionOccurrence,InteractionOperator,InteractionOperand,Dependency"
+		Property FunctionalDomain_SAF_SFV05a_View_SystemInterfaceDefinitionToolbar MultiLine "SAF_DomainKind,SAF_ConceptualInterfaceDefinition,Dependency"
+		Property FunctionalDomain_SAF_SFV06a_View_SystemRequirement_DiagramToolbar MultiLine "SAF_StakeholderRequirement,SAF_SystemFunctionalRequirement,SAF_SystemFunctionalRequirementConstraint,SAF_SystemFunctionalRequirementRefinement,SAF_SystemRequirement,SAF_SystemRequirementDerivation,Dependency"
+		Property FunctionalDomain_SAF_SFV08b_View_SystemRequirementTraceability_DiagramToolbar MultiLine "SAF_SystemFunctionalRequirement,SAF_SystemFunctionalRequirementConstraint,SAF_SystemFunctionalRequirementRefinement,SAF_SystemNonFunctionalRequirement,SAF_SystemRequirement,SAF_SystemRequirementDerivation,SAF_SystemRequirementRefinement,Dependency"
+		Property FunctionalDomain_SAF_SFV08a_View_SystemCapabilityMapping_DiagramToolbar MultiLine "SAF_StakeholderRequirement,SAF_SystemCapability,SAF_SystemCapabilityComposition,SAF_SystemCapabilityDependency,SAF_SystemCapabilityEnabling,SAF_SystemCapabilityGeneralization,SAF_SystemCapabilitySupport,SAF_SystemFunction,SAF_SystemFunctionSupport,SAF_SystemProcess,SAF_SystemProcessEnabling,SAF_SystemRequirement,SAF_SystemUseCase,ActivityBox,Dependency"
+		Property FunctionalDomain_SAF_SLV08a_View_LogicalFunctionalMapping_DiagramToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SLV02a_View_LogicalStructureToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SLV04b_View_LogicalInternalExchangeToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SLV04a_View_LogicalInternalInteractionToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SPV01b_View_PhysicalContextDefinitionToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SPV01c_View_PhysicalContextExchangeToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SPV02a_View_PhysicalStructureToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SPV04b_View_PhysicalInternalExchangeToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SPV05a_View_PhysicalInterfaceDefinitionToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SPV08a_View_PhysicalLogicalMapping_DiagramToolbar MultiLine "Comment"
+		Property FunctionalDomain_SAF_SCV02a_View_ArgumentationAssuranceToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV01b_View_SystemContextDefinitionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV02b_View_SystemCapabilityToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV01c_View_SystemContextExchangeToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV02a_View_SystemDomainItemKindToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV01a_View_SystemUseCaseToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV03a_View_SystemProcessToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV03c_View_SystemStateToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV03b_View_SystemFunctionalRefinementToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV02c_View_SystemFunctionalBreakdownStructureToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV04a_View_SystemContextInteractionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV05a_View_SystemInterfaceDefinitionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV06a_View_SystemRequirement_DiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV08b_View_SystemRequirementTraceability_DiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SFV08a_View_SystemCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV01b_View_OperationalContextDefinitionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV02b_View_OperationalPerformerDefinitionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV02a_View_OperationalDomainItemKindToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV02c_View_OperationalCapabilityDiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV02d_View_StakeholderIdentificationToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV06a_View_StakeholderRequirement_DiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV08a_View_OperationalCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV08b_View_OperationalProcessMapping_DiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV01c_View_OperationalContextExchangeToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV01a_View_OperationalStoryToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV04a_View_OperationalInteractionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SOV03a_View_OperationalProcessToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SLV02a_View_LogicalStructureToolbar MultiLine "SAF_LogicalSOI,SAF_LogicalElement,SAF_LogicalInternalRole,Directed Composition,Generalization,Dependency"
+		Property LogicalDomain_SAF_SLV08a_View_LogicalFunctionalMapping_DiagramToolbar MultiLine "SAF_FunctionAction,SAF_LogicalElement,SAF_LogicalInternalRole,SAF_LogicalSOI,SAF_SystemFunction,SAF_SystemPartialFunction,Dependency"
+		Property LogicalDomain_SAF_SLV04b_View_LogicalInternalExchangeToolbar MultiLine "SAF_ConceptualInterfaceDefinition,SAF_DomainKind,SAF_LogicalInternalRole,Flow,Connector,ProxyPort,Dependency"
+		Property LogicalDomain_SAF_SLV04a_View_LogicalInternalInteractionToolbar MultiLine "SAF_LogicalInternalRole,InstanceLine,EnvironmentLine,Message,EventMessage,ReplyMessage,TimeintervalMessage,PartitionLine,Condition Mark,ExecutionOccurrence,InteractionOccurrence,InteractionOperator,InteractionOperand,Dependency"
+		Property LogicalDomain_SAF_SPV01b_View_PhysicalContextDefinitionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SPV01c_View_PhysicalContextExchangeToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SPV02a_View_PhysicalStructureToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SPV04b_View_PhysicalInternalExchangeToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SPV05a_View_PhysicalInterfaceDefinitionToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SPV08a_View_PhysicalLogicalMapping_DiagramToolbar MultiLine "Comment"
+		Property LogicalDomain_SAF_SCV02a_View_ArgumentationAssuranceToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV01b_View_SystemContextDefinitionToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV02b_View_SystemCapabilityToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV01c_View_SystemContextExchangeToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV02a_View_SystemDomainItemKindToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV01a_View_SystemUseCaseToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV03a_View_SystemProcessToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV03c_View_SystemStateToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV03b_View_SystemFunctionalRefinementToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV02c_View_SystemFunctionalBreakdownStructureToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV04a_View_SystemContextInteractionToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV05a_View_SystemInterfaceDefinitionToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV06a_View_SystemRequirement_DiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV08b_View_SystemRequirementTraceability_DiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SFV08a_View_SystemCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV01b_View_OperationalContextDefinitionToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV02b_View_OperationalPerformerDefinitionToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV02a_View_OperationalDomainItemKindToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV02c_View_OperationalCapabilityDiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV02d_View_StakeholderIdentificationToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV06a_View_StakeholderRequirement_DiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV08a_View_OperationalCapabilityMapping_DiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV08b_View_OperationalProcessMapping_DiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV01c_View_OperationalContextExchangeToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV01a_View_OperationalStoryToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV04a_View_OperationalInteractionToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SOV03a_View_OperationalProcessToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SLV08a_View_LogicalFunctionalMapping_DiagramToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SLV02a_View_LogicalStructureToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SLV04b_View_LogicalInternalExchangeToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SLV04a_View_LogicalInternalInteractionToolbar MultiLine "Comment"
+		Property PhysicalDomain_SAF_SPV01b_View_PhysicalContextDefinitionToolbar MultiLine "SAF_PhysicalContext,SAF_PhysicalEnvironment,SAF_PhysicalExternalSystem,SAF_PhysicalSystem,SAF_PhysicalUser,Directed Composition,Generalization,Dependency"
+		Property PhysicalDomain_SAF_SPV01c_View_PhysicalContextExchangeToolbar MultiLine "SAF_PhysicalContextRole,Object,Connector,ProxyPort,SAF_PhysicalExchangeType,Flow,Dependency"
+		Property PhysicalDomain_SAF_SPV02a_View_PhysicalStructureToolbar MultiLine "SAF_PhysicalElement,SAF_PhysicalHardwareElement,SAF_PhysicalSoftwareElement,SAF_PhysicalSystem,Directed Composition,Generalization,Dependency"
+		Property PhysicalDomain_SAF_SPV04b_View_PhysicalInternalExchangeToolbar MultiLine "SAF_PhysicalInternalRole,Object,Connector,ProxyPort,SAF_PhysicalExchangeType,Flow,SAF_InterfaceLayerRelationship,Dependency"
+		Property PhysicalDomain_SAF_SPV05a_View_PhysicalInterfaceDefinitionToolbar MultiLine "ProxyPort,SAF_PhysicalExchangeType,SAF_PhysicalInterfaceDefinition,SAF_InterfaceLayerRelationship,Generalization,Dependency"
+		Property PhysicalDomain_SAF_SPV08a_View_PhysicalLogicalMapping_DiagramToolbar MultiLine "SAF_LogicalInternalRole,SAF_PhysicalInternalRole,SAF_LogicalElement,SAF_LogicalEnvironment,SAF_LogicalExternalSystem,SAF_LogicalSOI,SAF_LogicalUser,SAF_PhysicalElement,SAF_PhysicalEnvironment,SAF_PhysicalExternalSystem,SAF_PhysicalHardwareElement,SAF_PhysicalSoftwareElement,SAF_PhysicalSystem,SAF_PhysicalUser,Dependency"
+		Property PhysicalDomain_SAF_SCV02a_View_ArgumentationAssuranceToolbar MultiLine "Comment"
+		Property SysML_SAF_SOV01b_View_OperationalContextDefinitionToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV02b_View_OperationalPerformerDefinitionToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV08b_View_OperationalProcessMapping_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV08a_View_OperationalCapabilityMapping_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV06a_View_StakeholderRequirement_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV02d_View_StakeholderIdentificationToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV02c_View_OperationalCapabilityDiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV02a_View_OperationalDomainItemKindToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV01b_View_SystemContextDefinitionToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV02b_View_SystemCapabilityToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV02a_View_SystemDomainItemKindToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV02c_View_SystemFunctionalBreakdownStructureToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV05a_View_SystemInterfaceDefinitionToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV06a_View_SystemRequirement_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV08b_View_SystemRequirementTraceability_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SFV08a_View_SystemCapabilityMapping_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SLV08a_View_LogicalFunctionalMapping_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SLV02a_View_LogicalStructureToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SPV01b_View_PhysicalContextDefinitionToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SPV02a_View_PhysicalStructureToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SPV05a_View_PhysicalInterfaceDefinitionToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SPV08a_View_PhysicalLogicalMapping_DiagramToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SCV02a_View_ArgumentationAssuranceToolbar MultiLine "Block, Object, Interface, FlowSpecification,Package, Port, FlowPort, InterfaceBlock, FullPort, ProxyPort, Association,Directed Association, Aggregation,Directed Composition, connector, Dependency, Generalization, Flow, ConstraintBlock, constraint, Allocation, Derivation, Satisfaction, conform, Problem, Rationale, ValueType, Dimension, Unit, InstanceSpecification, link, ActivityBox"
+		Property SysML_SAF_SOV01c_View_OperationalContextExchangeToolbar MultiLine "Object, 
+Block, 
+Package,Port,
+ FlowPort, 
+FullPort, 
+ProxyPort, 
+connector, 
+Dependency, 
+Flow, 
+
+ConstraintProperty,
+BindingConnector, 
+
+Satisfaction,
+Allocation, 
+
+ActivityBox
+"
+		Property SysML_SAF_SFV01c_View_SystemContextExchangeToolbar MultiLine "Object, 
+Block, 
+Package,Port,
+ FlowPort, 
+FullPort, 
+ProxyPort, 
+connector, 
+Dependency, 
+Flow, 
+
+ConstraintProperty,
+BindingConnector, 
+
+Satisfaction,
+Allocation, 
+
+ActivityBox
+"
+		Property SysML_SAF_SLV04b_View_LogicalInternalExchangeToolbar MultiLine "Object, 
+Block, 
+Package,Port,
+ FlowPort, 
+FullPort, 
+ProxyPort, 
+connector, 
+Dependency, 
+Flow, 
+
+ConstraintProperty,
+BindingConnector, 
+
+Satisfaction,
+Allocation, 
+
+ActivityBox
+"
+		Property SysML_SAF_SPV01c_View_PhysicalContextExchangeToolbar MultiLine "Object, 
+Block, 
+Package,Port,
+ FlowPort, 
+FullPort, 
+ProxyPort, 
+connector, 
+Dependency, 
+Flow, 
+
+ConstraintProperty,
+BindingConnector, 
+
+Satisfaction,
+Allocation, 
+
+ActivityBox
+"
+		Property SysML_SAF_SPV04b_View_PhysicalInternalExchangeToolbar MultiLine "Object, 
+Block, 
+Package,Port,
+ FlowPort, 
+FullPort, 
+ProxyPort, 
+connector, 
+Dependency, 
+Flow, 
+
+ConstraintProperty,
+BindingConnector, 
+
+Satisfaction,
+Allocation, 
+
+ActivityBox
+"
+		Property SysML_SAF_SOV01a_View_OperationalStoryToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SFV01a_View_SystemUseCaseToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SOV04a_View_OperationalInteractionToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SFV04a_View_SystemContextInteractionToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SLV04a_View_LogicalInternalInteractionToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SOV03a_View_OperationalProcessToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SFV03a_View_SystemProcessToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SFV03b_View_SystemFunctionalRefinementToolbar MultiLine "RpyDefault"
+		Property SysML_SAF_SFV03c_View_SystemStateToolbar MultiLine "RpyDefault"
+	end
+	Metaclass Model
+		Property ShowHoveringToolbar Bool "?<IsConditionalProperty>$<Model::Stereotype::$<General::Model::SelectedPerspective>_ShowHoveringToolbar>"
+		Property OperationalDomain_HideToolbars MultiLine "Code"
+		Property ShowHintForPerspectiveName MultiLine "CommonDomain,OperationalDomain,FunctionalDomain,LogicalDomain,PhysicalDomain,SysML"
+		Property Perspectives String "CommonDomain,OperationalDomain,FunctionalDomain,LogicalDomain,PhysicalDomain,SysML"
+		Property SelectedPerspectiveConfiguration MultiLine "$<General::Model::SelectedPerspective>"
+		Property SelectedPerspective MultiLine "?<IsConditionalProperty>?<begin>$<INI::General,EnforceInitialSelectedPerspective> ?<==> ?<?>OperationalDomain?<:>$<INI::General,EnforceInitialSelectedPerspective>?<end>"
+	end
+end
+end

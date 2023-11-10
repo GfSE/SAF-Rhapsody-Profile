@@ -1,0 +1,84 @@
+Subject Activity_diagram
+	Metaclass StateDiagram
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject UseCaseGe
+	Metaclass UseCaseDiagram
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject ComponentDiagram
+	Metaclass ComponentDiagramGE
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject Communication_Diagram
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+	Metaclass CommunicationDiagramGE
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+end
+Subject DeploymentDiagram
+	Metaclass DeploymentDiagramGE
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject General
+	Metaclass Graphics
+		Property ShowDiagramFrame Bool "True"
+		Property DiagramHeader MultiLine "$Name"
+		Property DiagramFrameMargin Int "20"
+	end
+end
+Subject StatechartDiagram
+	Metaclass StateDiagram
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject PanelDiagram
+	Metaclass General
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject ObjectModelGe
+	Metaclass ClassDiagram
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject TimingDiagram
+	Metaclass General
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+		Property SysMLDiagramKindTitle String ""
+	end
+end
+Subject SequenceDiagram
+	Metaclass General
+		Property SysMLDiagramKindTitle String ""
+	end
+	Metaclass SequenceDiagram
+		Property Fillcolor Color "?<IsConditionalProperty>?<begin>$<General::Model::SelectedPerspective> ?<==>OperationalDomain?<?>30,101,174?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>FunctionalDomain?<?>134,183,234?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>LogicalDomain?<?>234,175,0?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>PhysicalDomain?<?>120,148,64?<:>?<begin>$<General::Model::SelectedPerspective> ?<==>CommonDomain?<?>82,82,82?<:>243,243,243?<end>?<end>?<end>?<end>?<end>"
+	end
+end
+end
