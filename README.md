@@ -1,17 +1,8 @@
 # IBM Rhapsody Repository
-SAF profile and examples used for TdSE2021 Presentation for the SysML Tool Rhapsody. 
-
-**Operational Domain available**
-
-**Functional Domain NOT yet available**
-
-The repository features the SAF Profile and the SAF FFDS Example presented at TdSE 2021. Both, Profile and Example are intended to be used with IBM Rhapsody (v9.0.1 iFix2). Please see the model file itself for licensing terms.
+The repository features the IBM Rhapsody **SAF Profile** as Profile which has to be copied to "C:\Program Files\IBM\Rhapsody\9.0.2\Share\Profiles" with supplemental material. The **SAF Profile** is intended to be used with Rhapsody 9.0.x.
 
 ## SAF_Profile
-**System Architecture Framework SAF_Profile** has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification).
-
-## L0_FFDS
-**Fire Forest Detection System SAF_FFDS** Example has been created by SAF Working Group of the German Chapter of INCOSE (GfSE) according to the SAF Framework rules. Check out content diagram **SAF_FFDS_view_grid** for an overview of views and the navigation possibiliy to diagrams.
+**SAF Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile provides the stereotypes, specification views according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification) based on Rhapsody ModelBuilder Technology of Andy Lapping .
 
 The SAF_FFDS Example is based on the following publication: [SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML - Tim Weilkiens](https://www.oose.de/nuetzliches/sysmod-the-systems-modeling-toolbox/)
 
@@ -21,3 +12,4 @@ This is the main branch, reflecting the current development and it is updated as
 
 The following releases are available, each is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/Initial-Release)
+* [TdSE2023](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2023)
