@@ -1,11 +1,17 @@
 # IBM Rhapsody Repository
 This repository provides the current release of the **SAF Profile** intended to be used with IBM Rhapsody 9.0.x. Please see the model file itself for licensing terms.
-
 Please see the model file itself for licensing terms.
 
 ## SAF_Profile
 **SAF Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/), [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.md).
 For the creation of the SAF profile the Model Builder Technology of SodiusWillert https://www.sodiuswillert.com/en/home has been used.
+
+## Versions
+This is the main branch, reflecting the current development and it is updated as required.
+
+The following releases are available, each is kept in a separate branch:
+* [Initial Release](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/Initial-Release)
+* [TdSE2023](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2023)
 
 ## Start using the SAF_Profile in IBM Rhapsody
 ### Step 1
@@ -23,10 +29,3 @@ Select one entry to start one helper for the dedicated Domain.
 * Create Physical Domains Views
 ### Step 4
 Click on the relevant Viewpoint to generate the diagram. The toolbar is available if the dedicated Perspective is selected according to the domain.
-
-## Versions
-This is the main branch, reflecting the current development and it is updated as required.
-
-The following releases are available, each is kept in a separate branch:
-* [Initial Release](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/Initial-Release)
-* [TdSE2023](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2023)
