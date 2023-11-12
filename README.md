@@ -1,4 +1,4 @@
-# IBM Rhapsody Repository
+# IBM Engineering Systems Design Rhapsody Repository
 This repository provides the current release of the **SAF Profile** intended to be used with IBM Rhapsody 9.0.x. Please see the model file itself for licensing terms.
 
 ## SAF_Profile
