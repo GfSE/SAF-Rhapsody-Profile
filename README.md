@@ -5,7 +5,7 @@ Please see the model file itself for licensing terms.
 ## SAF_Profile
 **SAF_Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The **SAF Profile** contains the Stereotypes according to the [SAF-Specification released for TdSE 2023](https://github.com/GfSE/SAF-Specification/tree/TdSE2023), [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md).
 
-For the creation of the SAF profile the Model Builder Technology of SodiusWillert https://www.sodiuswillert.com/en/home has been used.
+For the creation of the SAF profile the Profile Builder Technology of SodiusWillert https://www.sodiuswillert.com/en/home has been used. See additionally the videos on https://www.youtube.com/playlist?list=PLSW-q842dhtaNk9MCO9WR-ygkyClQG85I.
 
 ## Versions
 The repository contains the **SAF Profile** presented for TdSE2023. 
