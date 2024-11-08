@@ -1,4 +1,4 @@
-# IBM Engineering Systems Design Rhapsody Repository
+# IBM Engineering Systems Design Rhapsody Repository, TdSE2024 Release
 This repository provides the current release of the **SAF Profile** intended to be used with IBM Rhapsody 9.0.2 or 10.0.1. Please see the model file itself for licensing terms.
 
 ## SAF_Profile
