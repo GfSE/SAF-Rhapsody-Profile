@@ -1,9 +1,10 @@
 Subject General
 	Metaclass ElementCreator
 		Property ElementCreatorName String "SAF Diagram Creator"
-		Property PathToElementsFile String ""
+		Property BasePathRelativeTo String "SAF_Profile"
+		Property EnableLogging Bool "False"
 		Property LockOnSelectedElementAtLaunch Bool "False"
-		Property BasePathForCustomCSVFiles String "$OMROOT/Profiles/SAF_Profile/ElementCreator"
+		Property BasePathForCustomCSVFiles String "CustomCSVFiles"
 	end
 end
 end

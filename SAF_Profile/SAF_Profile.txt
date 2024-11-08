@@ -1,3 +1,5 @@
 This System Architecture Framework (SAF) Profile for IBM Rhapsody will be used to develop technical systems.
 Contact for further Information: Markus Andres 
-URL: https://github.com/GfSE/SAF-Specification
+URL: https://saf.gfse.org or https://github.com/GfSE/SAF-Rhapsody-Profile
+
+Version V1_0_4 (based on stereotypes from GITHUB git@github.com:GfSE/SAF-Specification.git with SHA-1: 7ec9ce8582aa26b04aa44b9207681a75f481e274 )

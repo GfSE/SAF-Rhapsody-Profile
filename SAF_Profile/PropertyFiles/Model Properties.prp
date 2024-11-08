@@ -6,8 +6,5 @@ Subject General
 		Property RenameUnusedFiles Bool "True"
 		Property PathInProjectList Enum "Absolute,Relative" "Relative"
 	end
-	Metaclass Profile
-		Property AutoReferences String "$OMROOT/Profiles/SysML/SysMLProfile_rpy/SysML.sbs"
-	end
 end
 end

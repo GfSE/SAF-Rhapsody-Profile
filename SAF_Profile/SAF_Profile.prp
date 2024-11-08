@@ -4,4 +4,9 @@ Include "PropertyFiles/ConditionalProperties.prp"
 Include "PropertyFiles/Stereotype Properties.prp"
 Include "PropertyFiles/ElementCreator.prp"
 Include "PropertyFiles/SAF Perspectives.prp"
+Subject General
+	Metaclass Profile
+		Property AutoReferences String "$OMROOT/Profiles/SysML/SysMLProfile_rpy/SysML.sbs"
+	end
+end
 end
