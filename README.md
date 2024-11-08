@@ -2,7 +2,7 @@
 This repository provides the current release of the **SAF Profile** intended to be used with IBM Rhapsody 9.0.2 or 10.0.1. Please see the model file itself for licensing terms.
 
 ## SAF_Profile
-**SAF Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/), [List of Stereotypes](https://github.com/GfSE/SAF-Specification/blob/main/stereotypes.csv).
+**SAF Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification](https://saf.gfse.org), [List of Stereotypes](https://saf.gfse.org/userdoc/stereotypes.html).
 
 
 For the creation of the SAF profile the Profile Builder Technology of SodiusWillert https://www.sodiuswillert.com/en/home has been used. See additionally the videos on https://www.youtube.com/playlist?list=PLSW-q842dhtaNk9MCO9WR-ygkyClQG85I.
