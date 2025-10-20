@@ -14,6 +14,7 @@ The following releases are available, each is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/Initial-Release)
 * [TdSE2023](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2023)
 * [TdSE2024](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2024)
+* [TdSE2025](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2025)
 
 ## Start using the SAF_Profile in IBM Rhapsody
 ### Step 1
