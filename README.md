@@ -32,3 +32,11 @@ Select one entry to start one helper for the dedicated Domain.
 * Create Physical Domains Views
 ### Step 4
 Click on the relevant Viewpoint to generate the diagram. The toolbar is available if the dedicated Perspective is selected according to the domain.
+
+### Step 5
+* Use the context menue as well to create model elements with ease. 
+* Use Add --> Add New Model Element. 
+* Press CTRL + Space Bar to filter the list of model elements.
+* A new model elements will be added to the location of last selected model of the browser
+
+
