@@ -1,5 +1,5 @@
 # IBM Engineering Systems Design Rhapsody Repository
-This repository provides the current release of the **SAF Profile** intended to be used with IBM Rhapsody 9.0.2 or 10.0.1. Please see the model file itself for licensing terms.
+This repository provides the current release of the **SAF Profile** intended to be used with IBM Rhapsody 10.0.2. Please see the model file itself for licensing terms.
 
 ## SAF_Profile
 **SAF Profile** has been created by the System Architecture Framework Working Group of the German Chapter of INCOSE, GfSE e.V. The SAF Profile contains the Stereotypes according to the [SAF-Specification](https://saf.gfse.org), [List of Stereotypes](https://saf.gfse.org/userdoc/stereotypes.html).
@@ -17,7 +17,7 @@ The following releases are available, each is kept in a separate branch:
 
 ## Start using the SAF_Profile in IBM Rhapsody
 ### Step 1
-Copy the **SAF_Profile** folder to "C:\Program Files\IBM\Rhapsody\9.0.2\Share\Profiles" (in Case of RHY 9.0.2) or "C:\Program Files\IBM\Rhapsody\10.0.1\Share\Profiles" (in Case of RHY 10.0.1) with supplemental material.
+Copy the **SAF_Profile** folder to "C:\Program Files\IBM\Rhapsody\10.0.2\Share\Profiles" (in Case of RHY 10.0.2 fix 1) with supplemental material.
 
 ### Step 2
 Create a new project based on the **SAF_Profile**
