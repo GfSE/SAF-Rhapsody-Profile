@@ -1,5 +1,5 @@
 [helpers]
-numberOfElements=7
+numberOfElements=14
 
 name1=SAF_Launcher
 JavaMainClass1=com.ibm.rhapsody.SAF.plugin.SAF_Launcher
@@ -11,43 +11,88 @@ JavaMainClass2=com.ibm.rhapsody.andyl.elementCreator.ElementCreator_Launcher
 JavaClassPath2=.\Apps\ElementCreator.jar
 isPlugin2=1
 
-name3=SAF Toolkit\Create Common Domain Views
-isPluginCommand3=1
-command3=ElementCreator
-applicableToNonStrict3=Project,Package,Class,UseCase
-isVisible3=1
-helperTriggers3=
-isVisibleOnClosedProject3=0
+name3=ExportToXMLCommand
+JavaMainClass3=com.ibm.rhapsody.setoolkit.CreateXMLFromProjectLauncher
+JavaClassPath3=$OMROOT/Profiles/HarmonySE/SE Toolkit/CreateXMLFromProject.jar
+isPlugin3=1
 
-name4=SAF Toolkit\Create Operational Domain Views
-isPluginCommand4=1
-command4=ElementCreator
-applicableToNonStrict4=Project,Package,Class,UseCase
-isVisible4=1
-helperTriggers4=
-isVisibleOnClosedProject4=0
+name4=InsertNewModelElement
+JavaMainClass4=com.ibm.rhapsody.andyl.addnewelement.AddNewModelElement_Launcher
+JavaClassPath4=$OMROOT/Profiles/UAF/UAFToolkit/AddNewModelElement.jar
+isPlugin4=1
 
-name5=SAF Toolkit\Create Functional Domain Views
+name5=SAF Toolkit\Add\Add New Model Element
 isPluginCommand5=1
-command5=ElementCreator
-applicableToNonStrict5=Project,Package,Class,UseCase
+command5=InsertNewModelElement
+applicableToNonStrict5=Package Diagram,Configuration,ControlledFile,AssociationEnd,Node,Requirements Diagram,Generalization,ClassifierRole,JoinConnector,InteractionOperand,activity_D,ExecutionOccurrence,problem,Actor,CallOperation,ObjectModelDiagram,viewpoint,localPostcondition,ActivityDiagram,UseCaseDiagram,Reception,refine,Dependency,deriveReqt,SequenceDiagram,Internal Block Diagram,Project,Requirement,connector,allocate,Part,Destructor,Object,Package,Module,Link,Attribute,Instance,valueBinding_D,FlowItem,Folder,HyperLink,Profile,ValueProperty,AllocationsTable,Association,ParticipantProperty,verify,DataType,Parametric Diagram,RequirementsTable,EnumerationLiteral,ObjectNode,Constructor,SysMLPort,UseCase,LinkInstance,TerminationConnector,Dimension,StructureDiagram,rationale,Flow,Type,Pin,Transition,Event,ReferenceActivity,Statechart,Block Definition Diagram,Tag,CollaborationDiagram,testCase,Constraint,Port,JunctionConnector,flowSpecification,DeploymentDiagram,Stereotype,Unit,CallAction,proxyPort,view,ConstraintBlock,ComponentDiagram,ComponentInstance,flowAttribute,ConstraintParameter,InputOutputTable,DiagramConnector,interfaceBlock,CombinedFragment,flowProperty,ConstraintProperty,State,AssociationRole,Block,Class,File,HistoryConnector,changeStructuralFeatureEvent,InteractionOccurrence,PrimitiveOperation,Connector,Action,Fork,Argument,Message,SysML,BindingConnector,link,StateAction,Relation,standardPort,PanelDiagram,Component,Condition,Comment,fullPort,ValueType,SendAction,TriggeredOperation,Swimlane,localPrecondition,BlockState,DefaultTransition,Collaboration,conform,Callout,ActionState
 isVisible5=1
-helperTriggers5=
-isVisibleOnClosedProject5=0
 
-name6=SAF Toolkit\Create Logical Domain Views
-isPluginCommand6=1
-command6=ElementCreator
-applicableToNonStrict6=Project,Package,Class,UseCase
+name6=SAF Toolkit\External Application\Open Model Location in MS Explorer
+command6=explorer
+isSynced6=0
 isVisible6=1
+applicableToNonStrict6=Project,Package,Class,UseCase
+arguments6="."
+initialDir6=
+isMacro6=0
+applicableToProfile6=
 helperTriggers6=
-isVisibleOnClosedProject6=0
 
-name7=SAF Toolkit\Create Physical Domain Views
-isPluginCommand7=1
-command7=ElementCreator
-applicableToNonStrict7=Project,Package,Class,UseCase
+name7=SAF Toolkit\External Application\Notepad
+command7=C:/Windows/notepad.exe
+isSynced7=0
 isVisible7=1
+applicableToNonStrict7=Project,Package,Class,UseCase
+arguments7="My Notes.txt"
+initialDir7=
+isMacro7=0
+applicableToProfile7=
 helperTriggers7=
-isVisibleOnClosedProject7=0
+
+name8=SAF Toolkit\Grid\Create Common Domain Views
+isPluginCommand8=1
+command8=ElementCreator
+applicableToNonStrict8=Project,Package,Class,UseCase
+isVisible8=1
+
+name9=SAF Toolkit\Grid\Create Operational Domain Views
+isPluginCommand9=1
+command9=ElementCreator
+applicableToNonStrict9=Project,Package,Class,UseCase
+isVisible9=1
+
+name10=SAF Toolkit\Grid\Create Functional Domain Views
+isPluginCommand10=1
+command10=ElementCreator
+applicableToNonStrict10=Project,Package,Class,UseCase
+isVisible10=1
+
+name11=SAF Toolkit\Grid\Create Logical Domain Views
+isPluginCommand11=1
+command11=ElementCreator
+applicableToNonStrict11=Project,Package,Class,UseCase
+isVisible11=1
+
+name12=SAF Toolkit\Grid\Create Physical Domain Views
+isPluginCommand12=1
+command12=ElementCreator
+applicableToNonStrict12=Project,Package,Class,UseCase
+isVisible12=1
+
+name13=SAF Toolkit\Import and Export\Export Project Structure to XML
+isPluginCommand13=1
+command13=ExportToXMLCommand
+applicableToNonStrict13=SysML,Project
+isVisible13=1
+
+name14=SAF Toolkit\Import and Export\Create New Project Structure from XML
+command14=javaw
+isSynced14=0
+isVisible14=1
+applicableToNonStrict14=SysML,Project
+arguments14="-Djava.library.path="$OMROOT/JavaAPI" -Djava.class.path="$OMROOT/JavaAPI/rhapsody.jar$PathDelimiter$OMROOT/Profiles/HarmonySE/SE Toolkit/CreateProjectFromXML.jar$PathDelimiter$OMROOT/Profiles/HarmonySE/SE Toolkit/Common/CommonRhapsodyTools.jar" com.ibm.rhapsody.setoolkit.CreateProjectFromXMLLauncher"
+initialDir14=$JavaLocation/bin
+isMacro14=0
+applicableToProfile14=
+helperTriggers14=
 

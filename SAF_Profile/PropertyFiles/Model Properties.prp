@@ -7,4 +7,14 @@ Subject General
 		Property PathInProjectList Enum "Absolute,Relative" "Relative"
 	end
 end
+Subject StatechartDiagram
+	Metaclass General
+		Property ShowTransitionNumbers Bool "True"
+	end
+end
+Subject SequenceDiagram
+	Metaclass General
+		Property ShowSequenceNumbers Bool "True"
+	end
+end
 end

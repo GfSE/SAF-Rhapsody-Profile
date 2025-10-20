@@ -13,9 +13,9 @@ X,Y,Text to Display,Element To Create,BGR,BGG,BGB,FGR,FGB,FGG,Stereotype
 0,3,Operational Domain,null,41,64,121,255,255,255,null
 0,4,Operational Domain,null,41,64,121,255,255,255,null
 1,1,O1_OSTY Operational Story,SAF_O1_OSTY,41,64,121,255,255,255,null
-1,2,O1_OCXD Operational ContextDefinition,SAF_O1_OCXD,41,64,121,255,255,255,null
-1,3,O1_OCXE Operational ContextExchange,SAF_O1_OCXE,41,64,121,255,255,255,null
-1,4,-,null,41,64,121,255,255,255,null
+1,2,O1_OCXD Operational Context Definition,SAF_O1_OCXD,41,64,121,255,255,255,null
+1,3,O1_OCXE Operational Context Exchange,SAF_O1_OCXE,41,64,121,255,255,255,null
+1,4,O1_OSHD Operational Shell Definition,SAF_O1_OSHD,41,64,121,255,255,255,null
 2,1,O2_ODIK Operational Domain Item Kind,SAF_O2_ODIK,41,64,121,255,255,255,null
 2,2,O2_OPRF Operational Performer,SAF_O2_OPRF,41,64,121,255,255,255,null
 2,3,O2_OCYD Operational Capability Definition,SAF_O2_OCYD,41,64,121,255,255,255,null
