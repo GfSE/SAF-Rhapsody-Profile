@@ -16,20 +16,23 @@ The following releases are available, each is kept in a separate branch:
 * [TdSE2024](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2024)
 * [TdSE2025](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2025)
 
+## Hint
+The new profile allows automatic conversion of a model from the former Rhapsody Release TdSE2025 (Rhapsody Version 2025) to the latest Release (R2026). If you load the new profile a compatiblity mode will be triggered which allows staying with the old version of the profile or starting conversion any time.
+
 ## Start using the SAF_Profile in IBM Rhapsody
 ### Step 1
-Copy the **SAF_Profile** folder to "C:\Program Files\IBM\Rhapsody\10.0.2\Share\Profiles" (in Case of RHY 10.0.2 fix 1) with supplemental material.
+Copy the **SAF_Profile** folder to "C:\Program Files\IBM\Rhapsody\10.0.3\Share\Profiles" (in Case of RHY 10.0.3 fix 2) with supplemental material.
 
 ### Step 2
 Create a new project based on the **SAF_Profile**
+
 ### Step 3
 While creating a new IBM Rhapsody model select the newly created IBM Rhapsody Project and open the context menu via right click. Within the context menu you will find the entry **SAF Toolkit**
 ### Step 4
 Select one entry to start one helper for the dedicated Domain.
 * Create Common Domains Views
 * Create Operational Domains Views
-* Create Functional Domains Views
-* Create Logical Domains Views
+* Create Conceptual Domains Views
 * Create Physical Domains Views
 ### Step 4
 Click on the relevant Viewpoint to generate the diagram. The toolbar is available if the dedicated Perspective is selected according to the domain.
