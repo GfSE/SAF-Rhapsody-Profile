@@ -12,9 +12,9 @@ X,Y,Text to Display,Element To Create,BGR,BGG,BGB,FGR,FGB,FGG,Stereotype
 0,2,Physical Domain,null,120,148,64,255,255,255,null
 0,3,Physical Domain,null,120,148,64,255,255,255,null
 0,4,Physical Domain,null,120,148,64,255,255,255,null
-1,1,-,null,120,148,64,255,255,255,null
-1,2,P1_PCXD Physical Context Definition,SAF_P1_PCXD,120,148,64,255,255,255,null
-1,3,P1_PCXE Physical Context Exchange,SAF_P1_PCXE,120,148,64,255,255,255,null
+1,1,P1_PCXD Physical Context Definition,SAF_P1_PCXD,120,148,64,255,255,255,null
+1,2,P1_PCXE Physical Context Exchange,SAF_P1_PCXE,120,148,64,255,255,255,null
+1,3,P1_PCXE Physical Context Exchange (Table),SAF_P1_PCXE_Table,120,148,64,255,255,255,null
 1,4,-,null,120,148,64,255,255,255,null
 2,1,P2_PSTD Physical Structure Definition,SAF_P2_PSTD,120,148,64,255,255,255,null
 2,2,P2_PETD Physical Exchange Type Definition,SAF_P2_PETD,120,148,64,255,255,255,null
@@ -24,8 +24,8 @@ X,Y,Text to Display,Element To Create,BGR,BGG,BGB,FGR,FGB,FGG,Stereotype
 3,2,-,null,120,148,64,255,255,255,null
 3,3,-,null,120,148,64,255,255,255,null
 3,4,-,null,120,148,64,255,255,255,null
-4,1,-,null,120,148,64,255,255,255,null
-4,2,P4_PIEX Physical Internal Exchange,SAF_P4_PIEX,120,148,64,255,255,255,null
+4,1,P4_PIEX Physical Internal Exchange,SAF_P4_PIEX,120,148,64,255,255,255,null
+4,2,P4_PIEX Physical Internal Exchange (Table),SAF_P4_PIEX_Table,120,148,64,255,255,255,null
 4,3,-,null,120,148,64,255,255,255,null
 4,4,-,null,120,148,64,255,255,255,null
 5,1,P5_PIFD Physical Interface Definition,SAF_P5_PIFD,120,148,64,255,255,255,null
@@ -40,7 +40,7 @@ X,Y,Text to Display,Element To Create,BGR,BGG,BGB,FGR,FGB,FGG,Stereotype
 7,2,-,null,120,148,64,255,255,255,null
 7,3,-,null,120,148,64,255,255,255,null
 7,4,-,null,120,148,64,255,255,255,null
-8,1,P8_PLOM Physical Logical Mapping (Diagram),SAF_P8_PLOM,120,148,64,255,255,255,null
-8,2,P8_PLOM Physical Logical Mapping (Table),SAF_P8_PLOM_Table,120,148,64,255,255,255,null
-8,3,P8_PLOM Physical Logical Mapping (Matrix),SAF_P8_PLOM_Matrix,120,148,64,255,255,255,null
-8,4,-,null,120,148,64,255,255,255,null
+8,1,P8_PFUM Physical Functional Mapping (Matrix),SAF_P8_PFUM_Matrix,120,148,64,255,255,255,null
+8,2,P8_PLOM Physical Logical Mapping,SAF_P8_PLOM,120,148,64,255,255,255,null
+8,3,P8_PLOM Physical Logical Mapping (Table),SAF_P8_PLOM_Table,120,148,64,255,255,255,null
+8,4,P8_PLOM Physical Logical Mapping (Matrix),SAF_P8_PLOM_Matrix,120,148,64,255,255,255,null

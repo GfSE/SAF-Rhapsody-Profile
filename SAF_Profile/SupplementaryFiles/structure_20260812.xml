@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Project Stereotype="SAF_Profile">
+    <ModelElement isRef="true" metaclass="Profile" name="SysML" unitPath="$OMROOT\Profiles\SysML\SysMLProfile_rpy/SysML.sbs" userdefinedmetaclass="Profile"/>
+	<ModelElement isRef="true" metaclass="Profile" name="SAF_Profile" unitPath="$OMROOT\Profiles\SAF_Profile/SAF_Profile.sbsx" userdefinedmetaclass="Profile"/>
+    <ModelElement isRef="true" metaclass="Profile" name="SysMLPerspectives" unitPath="$OMROOT\Settings\SysMLPerspectives\SysMLPerspectives.sbsx" userdefinedmetaclass="Settings"/>
+    <ModelElement isRef="false" metaclass="Package" name="__ArchitectureManagementDomain_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="Comments_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="ModelManagement_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="SoftwareLandscape" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="Container4Images" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="Guidelines" userdefinedmetaclass="Package">
+                <ModelElement isRef="false" metaclass="Package" name="ColourCode" userdefinedmetaclass="Package"/>
+            </ModelElement>
+            <ModelElement isRef="false" metaclass="Package" name="ModelOrganisation" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="MappingStrategy" userdefinedmetaclass="Package"/>
+        </ModelElement>
+        <ModelElement isRef="false" metaclass="Package" name="Favorites_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="Favorites_All" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="Favorites_User1" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="A_Overview_Ext" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="A_Overview" userdefinedmetaclass="Package"/>
+        </ModelElement>
+        <ModelElement isRef="false" metaclass="Package" name="TermsAndDefinitions_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="General_Pkg" userdefinedmetaclass="Package"/>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_01_OperationalDomain_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="OD_Context_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="OperationalContext01" userdefinedmetaclass="Package">
+                <ModelElement isRef="false" metaclass="Package" name="OperationalStories" userdefinedmetaclass="Package"/>
+            </ModelElement>
+            <ModelElement isRef="false" metaclass="Package" name="OperationalContext_ALL" userdefinedmetaclass="Package"/>
+        </ModelElement>
+        <ModelElement isRef="false" metaclass="Package" name="OD_Structure_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="OperationalCapabilities_Pkg" userdefinedmetaclass="Package"/>
+        </ModelElement>
+        <ModelElement isRef="false" metaclass="Package" name="OD_Mapping_Pkg" userdefinedmetaclass="Package"/>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_02_Actor_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="OD_OperationalPerformer_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="CD_ConceptualActor_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="PD_PhysicalActor_Pkg" userdefinedmetaclass="Package"/>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_03_Interface_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="OD_Interfaces_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="CD_Interfaces_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="PD_Interfaces_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="PD_Ext_Interface_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="PD_Int_Interface_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="PD_ExchangeTypes_Pkg" userdefinedmetaclass="Package">
+                <ModelElement isRef="false" metaclass="Package" name="Mechanical" userdefinedmetaclass="Package"/>
+                <ModelElement isRef="false" metaclass="Package" name="Electical" userdefinedmetaclass="Package"/>
+                <ModelElement isRef="false" metaclass="Package" name="Network" userdefinedmetaclass="Package"/>
+                <ModelElement isRef="false" metaclass="Package" name="RF" userdefinedmetaclass="Package"/>
+            </ModelElement>
+        </ModelElement>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_04_RequirementAspect_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="RA_Mapping_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="RA_Structure_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="SysRS" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="StRS" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="RequirementsToSynchronize" userdefinedmetaclass="Package"/>
+        </ModelElement>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_05_ConceptualDomainBB_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="CD_ContextBB_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="SystemUseCases_Pkg" userdefinedmetaclass="Package">
+                <ModelElement isRef="false" metaclass="Package" name="SystemUseCase01_Pkg" userdefinedmetaclass="Package"/>
+                <ModelElement isRef="false" metaclass="Package" name="SystemUseCase02_Pkg" userdefinedmetaclass="Package"/>
+                <ModelElement isRef="false" metaclass="Package" name="SystemUseCase03_Pkg" userdefinedmetaclass="Package"/>
+            </ModelElement>
+        </ModelElement>
+        <ModelElement isRef="false" metaclass="Package" name="CD_MappingBB_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="CD_StructureBB_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="SystemFunctions_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="System_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="ExternalFunctions_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="SystemCapabilities_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="FunctionGroup_Plg" userdefinedmetaclass="Package"/>
+        </ModelElement>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_06_ConceptualDomainWB_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="CD_ContextWB_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="CD_MappingWB_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="CD_Structure_and_BehaviourWB_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="LD_System_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="LD_SystemElements_Pkg" userdefinedmetaclass="Package"/>
+        </ModelElement>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_07_PhysicalDomain_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="PD_Context_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="PD_Mapping_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="PD_Structure_Pkg" userdefinedmetaclass="Package">
+            <ModelElement isRef="false" metaclass="Package" name="PD_System_Pkg" userdefinedmetaclass="Package"/>
+            <ModelElement isRef="false" metaclass="Package" name="PD_SystemElements_Pkg" userdefinedmetaclass="Package"/>
+        </ModelElement>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_Aspect_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="Documentation_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="ParametricalAnalysis_Pkg" userdefinedmetaclass="Package"/>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_DomainKnowledge_Pkg" userdefinedmetaclass="Package"/>
+    <ModelElement isRef="false" metaclass="Package" name="_ModelExchange_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="UpperLevel_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="LowerLevel_Pkg" userdefinedmetaclass="Package"/>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_Sandbox_Pkg" userdefinedmetaclass="Package">
+        <ModelElement isRef="false" metaclass="Package" name="User02_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="User03_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="User01_Pkg" userdefinedmetaclass="Package"/>
+        <ModelElement isRef="false" metaclass="Package" name="Import_Pkg" userdefinedmetaclass="Package"/>
+    </ModelElement>
+    <ModelElement isRef="false" metaclass="Package" name="_Types_Pkg" userdefinedmetaclass="Package"/>
+</Project>

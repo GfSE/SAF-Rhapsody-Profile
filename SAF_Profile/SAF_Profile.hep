@@ -21,53 +21,53 @@ JavaMainClass4=com.ibm.rhapsody.andyl.addnewelement.AddNewModelElement_Launcher
 JavaClassPath4=$OMROOT/Profiles/UAF/UAFToolkit/AddNewModelElement.jar
 isPlugin4=1
 
-name5=SAF Toolkit\Add\Add New Model Element
+name5=SAF Toolkit\Convert model to newest SAF version
 isPluginCommand5=1
-command5=InsertNewModelElement
-applicableToNonStrict5=Package Diagram,Configuration,ControlledFile,AssociationEnd,Node,Requirements Diagram,Generalization,ClassifierRole,JoinConnector,InteractionOperand,activity_D,ExecutionOccurrence,problem,Actor,CallOperation,ObjectModelDiagram,viewpoint,localPostcondition,ActivityDiagram,UseCaseDiagram,Reception,refine,Dependency,deriveReqt,SequenceDiagram,Internal Block Diagram,Project,Requirement,connector,allocate,Part,Destructor,Object,Package,Module,Link,Attribute,Instance,valueBinding_D,FlowItem,Folder,HyperLink,Profile,ValueProperty,AllocationsTable,Association,ParticipantProperty,verify,DataType,Parametric Diagram,RequirementsTable,EnumerationLiteral,ObjectNode,Constructor,SysMLPort,UseCase,LinkInstance,TerminationConnector,Dimension,StructureDiagram,rationale,Flow,Type,Pin,Transition,Event,ReferenceActivity,Statechart,Block Definition Diagram,Tag,CollaborationDiagram,testCase,Constraint,Port,JunctionConnector,flowSpecification,DeploymentDiagram,Stereotype,Unit,CallAction,proxyPort,view,ConstraintBlock,ComponentDiagram,ComponentInstance,flowAttribute,ConstraintParameter,InputOutputTable,DiagramConnector,interfaceBlock,CombinedFragment,flowProperty,ConstraintProperty,State,AssociationRole,Block,Class,File,HistoryConnector,changeStructuralFeatureEvent,InteractionOccurrence,PrimitiveOperation,Connector,Action,Fork,Argument,Message,SysML,BindingConnector,link,StateAction,Relation,standardPort,PanelDiagram,Component,Condition,Comment,fullPort,ValueType,SendAction,TriggeredOperation,Swimlane,localPrecondition,BlockState,DefaultTransition,Collaboration,conform,Callout,ActionState
+command5=SAF_Launcher
+applicableToNonStrict5=Project
 isVisible5=1
 
-name6=SAF Toolkit\External Application\Open Model Location in MS Explorer
-command6=explorer
-isSynced6=0
+name6=SAF Toolkit\Add\Add New Model Element
+isPluginCommand6=1
+command6=InsertNewModelElement
+applicableToNonStrict6=Package Diagram,Configuration,ControlledFile,AssociationEnd,Node,Requirements Diagram,Generalization,ClassifierRole,JoinConnector,InteractionOperand,activity_D,ExecutionOccurrence,problem,Actor,CallOperation,ObjectModelDiagram,viewpoint,localPostcondition,ActivityDiagram,UseCaseDiagram,Reception,refine,Dependency,deriveReqt,SequenceDiagram,Internal Block Diagram,Project,Requirement,connector,allocate,Part,Destructor,Object,Package,Module,Link,Attribute,Instance,valueBinding_D,FlowItem,Folder,HyperLink,Profile,ValueProperty,AllocationsTable,Association,ParticipantProperty,verify,DataType,Parametric Diagram,RequirementsTable,EnumerationLiteral,ObjectNode,Constructor,SysMLPort,UseCase,LinkInstance,TerminationConnector,Dimension,StructureDiagram,rationale,Flow,Type,Pin,Transition,Event,ReferenceActivity,Statechart,Block Definition Diagram,Tag,CollaborationDiagram,testCase,Constraint,Port,JunctionConnector,flowSpecification,DeploymentDiagram,Stereotype,Unit,CallAction,proxyPort,view,ConstraintBlock,ComponentDiagram,ComponentInstance,flowAttribute,ConstraintParameter,InputOutputTable,DiagramConnector,interfaceBlock,CombinedFragment,flowProperty,ConstraintProperty,State,AssociationRole,Block,Class,File,HistoryConnector,changeStructuralFeatureEvent,InteractionOccurrence,PrimitiveOperation,Connector,Action,Fork,Argument,Message,SysML,BindingConnector,link,StateAction,Relation,standardPort,PanelDiagram,Component,Condition,Comment,fullPort,ValueType,SendAction,TriggeredOperation,Swimlane,localPrecondition,BlockState,DefaultTransition,Collaboration,conform,Callout,ActionState
 isVisible6=1
-applicableToNonStrict6=Project,Package,Class,UseCase
-arguments6="."
-initialDir6=
-isMacro6=0
-applicableToProfile6=
-helperTriggers6=
 
-name7=SAF Toolkit\External Application\Notepad
-command7=C:/Windows/notepad.exe
+name7=SAF Toolkit\External Application\Open Model Location in MS Explorer
+command7=explorer
 isSynced7=0
 isVisible7=1
 applicableToNonStrict7=Project,Package,Class,UseCase
-arguments7="My Notes.txt"
+arguments7="."
 initialDir7=
 isMacro7=0
 applicableToProfile7=
 helperTriggers7=
 
-name8=SAF Toolkit\Grid\Create Common Domain Views
-isPluginCommand8=1
-command8=ElementCreator
-applicableToNonStrict8=Project,Package,Class,UseCase
+name8=SAF Toolkit\External Application\Notepad
+command8=C:/Windows/notepad.exe
+isSynced8=0
 isVisible8=1
+applicableToNonStrict8=Project,Package,Class,UseCase
+arguments8="My Notes.txt"
+initialDir8=
+isMacro8=0
+applicableToProfile8=
+helperTriggers8=
 
-name9=SAF Toolkit\Grid\Create Operational Domain Views
+name9=SAF Toolkit\Grid\Create Architecture Management Domain Views
 isPluginCommand9=1
 command9=ElementCreator
 applicableToNonStrict9=Project,Package,Class,UseCase
 isVisible9=1
 
-name10=SAF Toolkit\Grid\Create Functional Domain Views
+name10=SAF Toolkit\Grid\Create Operational Domain Views
 isPluginCommand10=1
 command10=ElementCreator
 applicableToNonStrict10=Project,Package,Class,UseCase
 isVisible10=1
 
-name11=SAF Toolkit\Grid\Create Logical Domain Views
+name11=SAF Toolkit\Grid\Create Conceptual Domain Views
 isPluginCommand11=1
 command11=ElementCreator
 applicableToNonStrict11=Project,Package,Class,UseCase

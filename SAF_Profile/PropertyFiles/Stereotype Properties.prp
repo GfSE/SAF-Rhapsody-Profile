@@ -1,1 +1,6 @@
+Subject Browser
+	Metaclass Settings
+		Property TreeNodeTextFormat String "?<IsConditionalProperty>"
+	end
+end
 end

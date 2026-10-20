@@ -1,0 +1,14 @@
+[helpers]
+numberOfElements=2
+
+name1=SAF Toolkit\Add SAF v3 compatibility perspectives
+isPluginCommand1=1
+command1=SAF_Launcher
+applicableToNonStrict1=Project
+isVisible1=1
+
+name2=SAF Toolkit\Remove SAF v3 compatibility perspectives
+isPluginCommand2=1
+command2=SAF_Launcher
+applicableToNonStrict2=Project
+isVisible2=1

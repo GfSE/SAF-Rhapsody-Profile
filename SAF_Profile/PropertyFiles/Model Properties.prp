@@ -1,7 +1,17 @@
+Subject Activity_diagram
+	Metaclass CallOperation
+		Property ShowAction Enum "Action,Description,Label,ReferenceDescription" "ReferenceDescription"
+		Property ShowStereotype Enum "Bitmap,Label,None" "Label"
+		Property ShowName Enum "FullNotation,Label,Name,None,Operation,OperationWithoutOwner" "OperationWithoutOwner"
+	end
+end
 Subject General
+	Metaclass Graphics
+		Property ShowStereotypes Enum "No,Prefix,Suffix" "No"
+		Property AdditionalCompartments String "AllocatedFrom, AllocatedTo,ProxyPort,FullPort,FlowProperty,ValueProperty,Tag,HyperLink,Block"
+	end
 	Metaclass Model
 		Property AutoSaveInterval Int "5"
-		Property ShowHoveringToolbar Bool "False"
 		Property ReferenceUnitPath Enum "Absolute,Relative" "Relative"
 		Property RenameUnusedFiles Bool "True"
 		Property PathInProjectList Enum "Absolute,Relative" "Relative"
@@ -10,6 +20,14 @@ end
 Subject StatechartDiagram
 	Metaclass General
 		Property ShowTransitionNumbers Bool "True"
+	end
+end
+Subject ObjectModelGe
+	Metaclass proxyPort
+		Property ShowStereotype Enum "Label,None" "None"
+	end
+	Metaclass Class
+		Property ShowName Enum "Full_path,Label,Name_only,Relative" "Name_only"
 	end
 end
 Subject SequenceDiagram

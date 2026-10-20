@@ -1,2 +1,9 @@
-This System Architecture Framework (SAF) Profile for IBM Rhapsody will be used to develop technical systems.
-Contact for further Information: https://saf.gfse.org or https://github.com/GfSE/SAF-Rhapsody-Profile
+This profile implements the System Architecture Framework (SAF) in IBM Rhapsody.
+Inspired by the various enterprise architecture frameworks, the SAF is a common, domain independent system architecture framework dedicated to support Model Based Systems Engineering (MBSE) of technical systems.
+
+The SAF can be used stand-alone and also complementary to enterprise architecture frameworks. SAF starts where an enterprise architecture framework stops.
+Further information is available here: 
+- Documentation of the framework: https://saf.gfse.org
+- GitHub repository for Rhapsody SAF profile: https://github.com/GfSE/SAF-Rhapsody-Profile
+
+

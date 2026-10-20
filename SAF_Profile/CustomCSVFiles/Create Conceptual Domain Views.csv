@@ -1,0 +1,64 @@
+X,Y,Text to Display,Element To Create,BGR,BGG,BGB,FGR,FGB,FGG,Stereotype
+0,0,Domain/Aspect  ,null,0,0,0,255,255,255,null
+1,0,01-Story &Context,null,0,0,0,255,255,255,null
+2,0,02-Structure  ,null,0,0,0,255,255,255,null
+3,0,03-Process &Behaviour,null,0,0,0,255,255,255,null
+4,0,04-Interaction &Collaboration,null,0,0,0,255,255,255,null
+5,0,05-Interface  ,null,0,0,0,255,255,255,null
+6,0,06-Requirement  ,null,0,0,0,255,255,255,null
+7,0,07-Safety &Security,null,0,0,0,255,255,255,null
+8,0,08-Mapping &CrossReference,null,0,0,0,255,255,255,null
+0,1,Conceptual Domain,null,253,190,0,0,0,0,null
+0,2,Conceptual Domain,null,253,190,0,0,0,0,null
+0,3,Conceptual Domain,null,253,190,0,0,0,0,null
+0,4,Conceptual Domain,null,253,190,0,0,0,0,null
+0,5,Conceptual Domain,null,253,190,0,0,0,0,null
+0,6,Conceptual Domain,null,253,190,0,0,0,0,null
+1,1,C1_SCXD System Context Definition,SAF_C1_SCXD,253,190,0,0,0,0,null
+1,2,C1_SCXD System Context Definition (Table),SAF_C1_SCXD_Table,253,190,0,0,0,0,null
+1,3,C1_SCXE System Context Exchange,SAF_C1_SCXE,253,190,0,0,0,0,null
+1,4,C1_SCXE System Context Exchange (Table),SAF_C1_SCXE_Table,253,190,0,0,0,0,null
+1,5,C1_SUCD System Use Case Definition,SAF_C1_SUCD,253,190,0,0,0,0,null
+1,6,-,null,253,190,0,0,0,0,null
+2,1,C2_SCYD System Capability Definition,SAF_C2_SCYD,253,190,0,0,0,0,null
+2,2,C2_SCYD System Capability Definition (Table),SAF_C2_SCYD_Table,253,190,0,0,0,0,null
+2,3,C2_SETD System Exchange Type Definition,SAF_C2_SETD,253,190,0,0,0,0,null
+2,4,C2_SETD System Exchange Type Definition (Table),SAF_C2_SETD_Table,253,190,0,0,0,0,null
+2,5,C2_SFBS System Functional Breakdown Structure,SAF_C2_SFBS,253,190,0,0,0,0,null
+2,6,C2_SSTD System Structure Definition,SAF_C2_SSTD,253,190,0,0,0,0,null
+3,1,C3_SFRE System Functional Refinement,SAF_C3_SFRE,253,190,0,0,0,0,null
+3,2,C3_SPRO System Process,SAF_C3_SPRO,253,190,0,0,0,0,null
+3,3,C3_SPRO System Process (Table),SAF_C3_SPRO_Table,253,190,0,0,0,0,null
+3,4,C3_SSTA System State,SAF_C3_SSTA,253,190,0,0,0,0,null
+3,5,C3_SSTA System State (Table),SAF_C3_SSTA_Table,253,190,0,0,0,0,null
+3,6,-,null,253,190,0,0,0,0,null
+4,1,C4_SCXI System Context Interaction,SAF_C4_SCXI,253,190,0,0,0,0,null
+4,2,C4_SIEX System Internal Exchange,SAF_C4_SIEX,253,190,0,0,0,0,null
+4,3,C4_SITI System Internal Interaction,SAF_C4_SITI,253,190,0,0,0,0,null
+4,4,-,null,253,190,0,0,0,0,null
+4,5,-,null,253,190,0,0,0,0,null
+4,6,-,null,253,190,0,0,0,0,null
+5,1,C5_SIFD System Interface Definition,SAF_C5_SIFD,253,190,0,0,0,0,null
+5,2,-,null,253,190,0,0,0,0,null
+5,3,-,null,253,190,0,0,0,0,null
+5,4,-,null,253,190,0,0,0,0,null
+5,5,-,null,253,190,0,0,0,0,null
+5,6,-,null,253,190,0,0,0,0,null
+6,1,C6_SRQD System Requirement Definition,SAF_C6_SRQD,253,190,0,0,0,0,null
+6,2,C6_SRQD System Requirement Definition (Table),SAF_C6_SRQD_Table,253,190,0,0,0,0,null
+6,3,-,null,253,190,0,0,0,0,null
+6,4,-,null,253,190,0,0,0,0,null
+6,5,-,null,253,190,0,0,0,0,null
+6,6,-,null,253,190,0,0,0,0,null
+7,1,-,null,253,190,0,0,0,0,null
+7,2,-,null,253,190,0,0,0,0,null
+7,3,-,null,253,190,0,0,0,0,null
+7,4,-,null,253,190,0,0,0,0,null
+7,5,-,null,253,190,0,0,0,0,null
+7,6,-,null,253,190,0,0,0,0,null
+8,1,C8_SCYM System Capability Mapping,SAF_C8_SCYM,253,190,0,0,0,0,null
+8,2,C8_SCYM System Capability Mapping (Table),SAF_C8_SCYM_Table,253,190,0,0,0,0,null
+8,3,C8_SFUM System Functional Mapping,SAF_C8_SFUM,253,190,0,0,0,0,null
+8,4,C8_SFUM System Functional Mapping (Matrix),SAF_C8_SFUM_Matrix,253,190,0,0,0,0,null
+8,5,C8_SRQT System Requirement Traceability,SAF_C8_SRQT,253,190,0,0,0,0,null
+8,6,C8_SRQT System Requirement Traceability (Table),SAF_C8_SRQT_Table,253,190,0,0,0,0,null
