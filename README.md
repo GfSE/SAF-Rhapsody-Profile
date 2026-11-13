@@ -15,6 +15,7 @@ The following releases are available, each is kept in a separate branch:
 * [TdSE2023](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2023)
 * [TdSE2024](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2024)
 * [TdSE2025](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2025)
+* [TdSE2026](https://github.com/GfSE/SAF-Rhapsody-Profile/tree/TdSE2026)
 
 ## Hint
 The new profile allows automatic conversion of a model from the former SAF Release TdSE2025 (SAF Profile Version 2025) to the latest Release (R2026). If you load the new profile a compatiblity mode will be triggered which allows staying with the old version of the profile or starting conversion any time.
